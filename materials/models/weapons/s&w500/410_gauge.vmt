@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\s&w500\410_gauge_d"
+	"$bumpmap"			"models\weapons\s&w500\410_gauge_n"
+	"$phongexponenttexture"	 	"models\weapons\s&w500\410_gauge_s"
+	"$nocull" 			      	"1"
+
+	"$envmap" 		 	"env_cubemap"
+	"$envmaptint" 			"[0.01 0.01 0.01]"
+	"$basemapalphaenvmapmask" 	"1"
+//	"$normalmapalphaphongmask"	"1"
+
+	"$phong"     			"1"
+	"$phongboost"			"50"
+	"$phongalbedotint"		   	"1"
+	"$phongfresnelranges"      		"[.1 .1 .1]"
+}

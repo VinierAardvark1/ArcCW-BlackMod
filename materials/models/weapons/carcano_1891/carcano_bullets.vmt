@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	$basetexture				"models\weapons\carcano_1891\carcano1891_d"
+	$bumpmap					"models\weapons\carcano_1891\carcano1891_n"
+	"$phongexponenttexture"		"models\weapons\carcano_1891\carcano1891_s"
+                  "$color2"					"[0.4 0.4 0.4]"
+//	"$color2"					"[0.24 0.24 0.24]"
+        $normalmapalphaenvmapmask	"0"
+	$envmap						env_cubemap
+	$envmaptint          "[0.05 0.025 0]"
+              $envmapfresnel		"1"			
+	$phong						1
+	$phongexponent				35
+	$phongboost					20.5
+	$phongfresnelranges             "[.3 4 5]"
+        $rimmask					"1"
+        $rimlightexponent			"45"	
+	$rimlight					"1"
+	$rimlightboost		".20"
+        $nocull "1"
+        $phongalbedotint			"1"
+        $phongalbedoboost 		"55"
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"					"models\drgordon\weapons\433\433_grip"
+	"$bumpmap"					"models\drgordon\weapons\433\433_grip_n"
+
+	"$phong"	"1"
+	"$phongexponent"	"7"
+	"$phongalbedotint"	"1"
+	"$phongboost"	"0.4"
+	"$phongfresnelranges"	"[0.4 0.8 1]"	
+}

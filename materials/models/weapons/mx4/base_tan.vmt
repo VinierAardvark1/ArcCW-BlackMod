@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	$basetexture				"models/weapons/mx4/base_d_tan"
+	$bumpmap				"models/weapons/mx4/base_n"
+	$phongexponenttexture			"models/weapons/mx4/base_e"
+	"$phongwarptexture"			"models/weapons/mx4/phongwarp_metal"
+
+	"$envmap"				"env_cubemap"
+	"$envmaptint"				"[ .13 .13 .13 ]"
+
+	"$phong"					"1"
+	"$phongboost"				"3"
+	"$phongfresnelranges"			"[0.32 0.72 0.99]"
+	"$phongalbedotint" 				"1"
+
+	"$rimlight"				"1"
+	"$rimlightexponent"				"33"
+	"$rimlightboost"				"1"
+	"$rimmask"				"1"
+}
+//Material setup by ShadowRUN 幸運な. 
+//You are NOT allowed to edit/modify/redistribute these materials without my explicit permission.

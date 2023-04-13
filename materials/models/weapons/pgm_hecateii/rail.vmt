@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models/weapons/pgm_hecateii/rail"
+	"$bumpmap" 		"models/weapons/pgm_hecateii/rail_nm"
+	"$phong" 		"1"
+	"$phongexponent"		"4"
+	"$phongboost" 		"1.25"	
+	"$phongfresnelranges"	"[.3 1 1]"
+}
+

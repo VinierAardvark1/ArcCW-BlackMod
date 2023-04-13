@@ -1,0 +1,8 @@
+"UnlitGeneric" {
+	$color2 "[0 1 0]"
+	Proxies {
+		TFAReticuleColor {
+			resultvar $color2
+		}
+	}
+}

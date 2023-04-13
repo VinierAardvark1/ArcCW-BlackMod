@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	$basetexture				"models/weapons/mx4/ammo_d"
+	$bumpmap				"models/weapons/mx4/ammo_n"
+	$phongexponenttexture			"models/weapons/mx4/ammo_e"
+	"$phongwarptexture"			"models/weapons/mx4/phongwarp_metal"
+	"$color2"					"[0.2 0.2 0.2]"
+
+	$detail					"detail\metal_detail_01"
+	$detailscale				8
+	$detailblendfactor				1
+	$detailblendmode				0
+
+	"$envmap"				"env_cubemap"
+	"$envmaptint"				"[ .8 .5 .2 ]"
+
+	"$phong"					"1"
+	"$phongboost"				"15"
+	"$phongfresnelranges"			"[0.32 0.72 0.99]"
+	"$phongalbedotint"				"1"
+}
+//Material setup by ShadowRUN 幸運な.
+//You are NOT allowed to edit/modify/redistribute these materials without my explicit permission.

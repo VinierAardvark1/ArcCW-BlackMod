@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	$basetexture				"models\weapons\fedorov_avtomat\fedorov_mag_default_d"
+	$bumpmap				"models\weapons\fedorov_avtomat\fedorov_mag_default_n"
+	"$phongexponenttexture"			"models\weapons\fedorov_avtomat\fedorov_mag_default_s"
+        $normalmapalphaenvmapmask			"1"
+	"$color2"					"[0.3 0.3 0.3]"
+//	"$color2"					"[0.5 0.5 0.5]"
+	"$translucent"				"0"	
+	$envmap					env_cubemap
+	$envmaptint				"[3.5 2.5 .5]"
+        $phongalbedotint 				"1"
+	$phongalbedoboost 			"55"
+	$phong					1
+	$phongexponent				60
+	$phongboost				125
+	$phongfresnelranges			"[0.5 0.9 1.8]"
+}

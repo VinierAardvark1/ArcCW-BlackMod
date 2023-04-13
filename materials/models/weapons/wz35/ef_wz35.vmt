@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{        
+                 // Original shader: VertexLitTexture
+	"$basetexture" 			"models\weapons\wz35\wz35_d"
+	"$bumpmap" 			"models\weapons\wz35\wz35_n"
+	"$halflambert" 			"1"				
+	"$nocull" 				1		
+		
+	"$normalmapalphaenvmapmask" 	1
+	"$envmap" 			"env_cubemap"					
+	"$envmaptint" 			"[.01 .01 .01]"
+	"$envmapcontrast" 			".4"	
+                "$ambientocclusion" 		1
+                "$ambientoccltexture" 		"models\weapons\wz35\wz35_a"						
+
+	"$phong" 	"1"
+	"$phongexponent" 			"20"
+	"$phongboost"			".5"
+	"$phongfresnelranges" 		"[.5 .5 .5]"
+	"$phongexponenttexture" 		"models\weapons\wz35\wz35_m"	
+                //"$phongwarptexture"		"models\weapons\wz35\wz35_m"	
+
+                "$lightwarptexture" 			"models\weapons\wz35\clothes_wrp"			
+}

@@ -1,0 +1,16 @@
+//4Echo
+"Vertexlitgeneric"
+{
+	$basetexture 		"models\weapons\950_jdj\jdj_diffuse"
+	$bumpmap 		"models\weapons\950_jdj\jdj_normal"
+	$nocull 			1
+	$phong                     	1
+	$phongboost            	25
+	$phongfresnelranges         	"[5 10 10]"
+	$phongexponenttexture 	"models\weapons\950_jdj\jdj_exponent"
+	$phongalbedotint		1
+	$phongalbedoboost		14
+	$envmap                     	env_cubemap
+	$envmaptint                 	"[.045 .065 .080]"
+	$basetexturealphaenvmapmask   1
+}
