@@ -1,0 +1,97 @@
+att.PrintName = "Custom-Tooled Long Range Assisted Shooting and Surveillance Scope (5x-500x)"
+att.AbbrevName = "CUTLASS Scope (5x-500x)"
+att.Icon = Material("entities/acwatt_optic_bocw_hm.png", "mips smooth")
+att.Description = [[Telescopic optic that was originally packaged with a variant of the Remington 700 rifle, nicknamed the Pellington. This particular scope was chosen for its simplistic design and relatively compact size. It's been extensively modified for longer ranges and low-visibility conditions, sporting a ridiculous amount of variable zoom and built-in thermal imaging system, as well as a number of optimizations to reduce all the weight.
+Just don't ask where all the electronics are, because I don't exactly know and its creator went off the grid months ago.]]
+att.Desc_Pros = {
+    "autostat.holosight",
+    "autostat.zoom",
+}
+att.Desc_Neutrals = {
+    -- "This attachment is (originally) from the BOCW Attachment Pack, Modified by VA1",
+    "blackmod.desc",
+}
+
+att.SortOrder = 8
+
+att.AutoStats = true
+att.Slot = {"optic_sniper"}
+
+att.Model = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope.mdl"
+att.ModelOffset = Vector(0, 0, -0.3)
+
+att.AdditionalSights = {
+    {
+        Pos = Vector(0, 9.36, -0.74),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1,
+        HolosightBone = "holosight",
+        HolosightData = {
+            Holosight = true,
+            HolosightMagnification = 1,
+            HolosightMagnificationMin = 5,
+            HolosightMagnificationMax = 500,
+            HolosightReticle = Material("hud/scopes/bocw_optic_pellington_reticle_custom_.png", "mips smooth"),
+            HolosightNoFlare = true,
+            HolosightSize = 23,
+            HolosightBlackbox = true,
+            Colorable = false,
+            HolosightPiece = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
+        },
+        ScrollFunc = ArcCW.SCROLL_ZOOM,
+        ZoomLevels = 5,
+        ZoomSound = "vz.zoomsmooth",
+        -- Thermal = true,
+        -- ThermalScopeColor = Color(0, 0, 255),
+        -- ThermalHighlightColor = Color(255, 0, 0),
+        -- ThermalFullColor = true,
+        -- ThermalScopeSimple = false,
+        -- ThermalNoCC = true,
+        -- ThermalBHOT = false,
+        IgnoreExtra = true,
+    },
+    {
+        Pos = Vector(0, 9.36, -0.74),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1,
+        HolosightData = {
+            Holosight = true,
+            HolosightMagnification = 1,
+            HolosightMagnificationMin = 5,
+            HolosightMagnificationMax = 500,
+            HolosightReticle = Material("hud/scopes/bocw_optic_pellington_reticle_custom_thermal.png", "mips smooth"),
+            HolosightNoFlare = true,
+            HolosightSize = 23,
+            HolosightBlackbox = true,
+            Colorable = false,
+            HolosightPiece = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
+        },
+        ScrollFunc = ArcCW.SCROLL_ZOOM,
+        ZoomLevels = 5,
+        ZoomSound = "vz.zoomsmooth",
+        Thermal = true,
+        ThermalScopeColor = Color(0, 0, 255),
+        ThermalHighlightColor = Color(255, 0, 0),
+        ThermalFullColor = true,
+        ThermalScopeSimple = false,
+        ThermalNoCC = false,
+        ThermalBHOT = false,
+        Contrast = 1, -- allows you to adjust the values for contrast and brightness when either NVScope or Thermal is enabled.
+        Brightness = 0.3,
+        IgnoreExtra = true,
+    }
+}
+
+att.Holosight = true
+att.HolosightReticle = Material("hud/scopes/acwatt_bocw_optic_pellington_reticle.png", "mips smooth")
+att.HolosightNoFlare = true
+att.HolosightSize = 23
+att.HolosightBone = "holosight"
+att.HolosightPiece = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
+att.Colorable = true
+
+att.HolosightBlackbox = true
+
+att.HolosightMagnification = 1
+
+att.Mult_SightTime = 1.5
