@@ -14,6 +14,6 @@
 	$phongexponent				20
 	$phongboost				15
 	$phongfresnelranges			"[0.25 0.5 1]"
-	$phongalbedotint				"1"
-	$phongalbedoboost 			"48"
+//	$phongalbedotint				"1"
+//	$phongalbedoboost 			"48"
 }

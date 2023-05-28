@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\nam\stevens620\w_d_stevens620"
+	"$bumpmap" 			"models\weapons\nam\stevens620\w_n_stevens620"
+	
+	
+	"$phong"  			"1"
+	"$phongexponent" 		"51"
+	"$phongboost" 			"0.9"
+	"$phongfresnelranges" 		"[1.5 2.5 7]"
+	"$phongtint" 			"[0.6 0.8 1]"
+	"$phongalbedotint" 		"1"	
+
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint"			"[0.075 0.075 0.075]"
+
+}

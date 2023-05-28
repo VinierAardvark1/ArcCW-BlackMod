@@ -10,7 +10,7 @@ att.Desc_Cons = {
     "May cause errors",
 }
 att.Desc_Neutrals = {
-    "Doesn't actually destroy the weapon, but does make it completely unusable.",
+    "Doesn't actually destroy the weapon, but renders it completely unusable.",
 	"blackmod.desc",
 }
 

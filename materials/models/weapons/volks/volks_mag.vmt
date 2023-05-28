@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+               $basetexture				"models\weapons\volks\volkssturmgewehr_mag_d"
+	$bumpmap					"models\weapons\volks\volkssturmgewehr_mag_n"
+	"$phongexponenttexture"		"models\weapons\volks\volkssturmgewehr_mag_s"
+                "$color2"					"[0.255 0.255 0.255]"
+//	"$color2"					"[0.215 0.215 0.215]"
+        $normalmapalphaenvmapmask	"1"
+	$envmap						env_cubemap
+	$envmaptint					"[ .11 .11 .11 ]"		
+	$phong						1
+	$phongexponent				25
+	$phongboost					1
+	$phongfresnelranges             "[.3 4 5]"
+        $rimmask					"1"
+        $rimlightexponent			"55"	
+	$rimlightboost		".25"
+               $rimlight 1
+        $nocull "1"
+}
