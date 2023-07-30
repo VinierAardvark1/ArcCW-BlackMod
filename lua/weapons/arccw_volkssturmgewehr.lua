@@ -42,8 +42,8 @@ SWEP.ExtendedClipSize = 40
 SWEP.ReducedClipSize = 20
 
 SWEP.Recoil = 0.9
-SWEP.RecoilSide = 0.65
-SWEP.RecoilRise = 1
+SWEP.RecoilSide = 0.5
+SWEP.RecoilRise = 1.1
 
 SWEP.Delay = 60 / 300 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -168,8 +168,8 @@ SWEP.Attachments = {
             wang = Angle(-11, 0, 180),
         },
         InstalledEles = {"mount"},
-        CorrectivePos = Vector(0, 0, 0),
-        CorrectiveAng = Angle(0.15, 0, 0)
+        -- CorrectivePos = Vector(0, 0, 0),
+        -- CorrectiveAng = Angle(0.15, 0, 0)
     },
     {
         PrintName = "Muzzle",
@@ -250,7 +250,6 @@ SWEP.Animations = {
 	["idle_iron"] = {
         Source = "idle",
 		LHIK = false,
-        Time = 100,
     },
 	["fire"] = {
         Source = "base_fire",

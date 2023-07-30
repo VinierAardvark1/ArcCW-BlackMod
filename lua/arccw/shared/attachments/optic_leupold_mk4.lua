@@ -20,7 +20,7 @@ att.HolosightPiece = "models/weapons/atts/fas2_optic_lmk4_hsp.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 10, -1.63),
+        Pos = Vector(0, 7.5, -1.63),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
@@ -35,7 +35,7 @@ att.HolosightMagnificationMin = 4.5
 att.HolosightMagnificationMax = 14
 att.HolosightReticle = Material("hud/scopes/leoupold_mk4.png")
 att.HolosightNoFlare = true
-att.HolosightSize = 16
+att.HolosightSize = 22
 att.HolosightBone = "holosight"
 att.Colorable = false
 att.HolosightBlackbox = true

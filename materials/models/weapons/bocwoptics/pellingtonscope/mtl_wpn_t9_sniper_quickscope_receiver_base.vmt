@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture""models\weapons\bocwoptics\pellingtonscope\parts_c"
+
+
+"$bumpmap"	"models\weapons\bocwoptics\pellingtonscope\parts_n"
+
+
+	"$phong" "1"
+	"$phongboost" "0.2"
+	"$phongexponent" "30"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$detail" 	"models\weapons\bocwoptics\pellingtonscope\parts_g"
+
+	"$detailscale" "1"        
+	"$detailblendfactor" "0.02"     
+	"$detailblendmode" "1"
+
+	"$cloakPassEnabled" 		"1"						
+	"$phongfresnelranges"	"[ .2 1.2 8]"	
+
+
+	"$nocull" "1"
+
+
+}

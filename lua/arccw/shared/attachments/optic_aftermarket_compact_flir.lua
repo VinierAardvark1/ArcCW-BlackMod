@@ -15,7 +15,7 @@ att.Desc_Neutrals = {
 att.AutoStats = true
 att.Slot = {"optic", "optic_lp"}
 
-att.Model = "models/weapons/atts/gso/hunter.mdl"
+att.Model = "models/weapons/atts/hunter.mdl"
 
 att.Mult_SightTime = 1.15
 att.Mult_SpeedMult = 0.9
@@ -35,7 +35,7 @@ att.HolosightReticle = Material("hud/scopes/hunter_flir.png", "mips smooth")
 att.HolosightNoFlare = true
 att.HolosightSize = 19
 att.HolosightBone = "holosight"
-att.HolosightPiece = "models/weapons/atts/gso/hunter_hsp.mdl"
+att.HolosightPiece = "models/weapons/atts/hunter_hsp.mdl"
 att.Colorable = true
 att.HolosightBlackbox = true
 att.HolosightMagnification = 2

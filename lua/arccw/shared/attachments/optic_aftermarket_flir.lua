@@ -15,7 +15,7 @@ att.Desc_Neutrals = {
 att.AutoStats = true
 att.Slot = "optic"
 
-att.Model = "models/weapons/atts/gso/schmidt.mdl"
+att.Model = "models/weapons/atts/schmidt.mdl"
 
 att.Mult_SightTime = 1.45
 att.Mult_SpeedMult = 0.85
@@ -38,7 +38,7 @@ att.HolosightReticle = Material("hud/scopes/schmidt_flir.png", "mips smooth")
 att.HolosightNoFlare = true
 att.HolosightSize = 20
 att.HolosightBone = "holosight"
-att.HolosightPiece = "models/weapons/atts/gso/schmidt_hsp.mdl"
+att.HolosightPiece = "models/weapons/atts/schmidt_hsp.mdl"
 att.Colorable = true
 att.HolosightBlackbox = true
 att.HolosightMagnification = 2

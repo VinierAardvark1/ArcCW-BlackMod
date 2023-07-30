@@ -17,7 +17,7 @@ att.SortOrder = 8
 att.AutoStats = true
 att.Slot = {"optic_sniper"}
 
-att.Model = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope.mdl"
+att.Model = "models/weapons/atts/bocw_att_optic_pellingtonscope.mdl"
 att.ModelOffset = Vector(0, 0, -0.3)
 
 att.AdditionalSights = {
@@ -36,7 +36,7 @@ att.AdditionalSights = {
             HolosightSize = 23,
             HolosightBlackbox = true,
             Colorable = false,
-            HolosightPiece = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
+            HolosightPiece = "models/weapons/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
         },
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 5,
@@ -64,7 +64,7 @@ att.AdditionalSights = {
             HolosightSize = 23,
             HolosightBlackbox = true,
             Colorable = false,
-            HolosightPiece = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
+            HolosightPiece = "models/weapons/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
         },
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 5,
@@ -87,7 +87,7 @@ att.HolosightReticle = Material("hud/scopes/acwatt_bocw_optic_pellington_reticle
 att.HolosightNoFlare = true
 att.HolosightSize = 23
 att.HolosightBone = "holosight"
-att.HolosightPiece = "models/weapons/arccw/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
+att.HolosightPiece = "models/weapons/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
 att.Colorable = true
 
 att.HolosightBlackbox = true

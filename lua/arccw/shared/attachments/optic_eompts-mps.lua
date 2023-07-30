@@ -28,7 +28,7 @@ att.Mult_SpeedMult = 0.9
 
 att.AdditionalSights = {
     {
-        Pos = Vector(-0.01, 8, -1.52),
+        Pos = Vector(-0.01, 6, -1.52),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         HolosightBone = "holosight",
@@ -39,7 +39,7 @@ att.AdditionalSights = {
             HolosightMagnificationMax = 4,
             HolosightReticle = Material("hud/scopes/eompts-mps.png"),
             HolosightNoFlare = true,
-            HolosightSize = 14,
+            HolosightSize = 16,
             HolosightBlackbox = false,
             Colorable = false,
             HolosightPiece 	= "models/weapons/atts/eompts_hsp_4a.mdl"
@@ -61,7 +61,7 @@ att.AdditionalSights = {
         end,
     },
     {
-        Pos = Vector(-0.01, 8, -1.52),
+        Pos = Vector(-0.01, 6, -1.52),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         HolosightBone = "holosight",
@@ -72,7 +72,7 @@ att.AdditionalSights = {
             HolosightMagnificationMax = 4,
             HolosightReticle = Material("hud/scopes/eompts-mps_thrm.png"),
             HolosightNoFlare = true,
-            HolosightSize = 14,
+            HolosightSize = 16,
             HolosightBlackbox = false,
             Colorable = false,
             HolosightPiece 	= "models/weapons/atts/eompts_hsp_4a.mdl"
@@ -95,7 +95,7 @@ att.AdditionalSights = {
         end,
     },
     {
-        Pos = Vector(-0.01, 8, -1.52),
+        Pos = Vector(-0.01, 6, -1.52),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         HolosightBone = "holosight",
@@ -106,7 +106,7 @@ att.AdditionalSights = {
             HolosightMagnificationMax = 4,
             HolosightReticle = Material("hud/scopes/eompts-mps_nvgs.png"),
             HolosightNoFlare = true,
-            HolosightSize = 14,
+            HolosightSize = 16,
             HolosightBlackbox = false,
             Colorable = false,
             HolosightPiece 	= "models/weapons/atts/eompts_hsp_4a.mdl"
@@ -135,7 +135,7 @@ att.AdditionalSights = {
 att.Holosight = true
 att.HolosightReticle = Material("hud/scopes/eompts-mps.png")
 att.HolosightNoFlare = true
-att.HolosightSize = 14
+att.HolosightSize = 16
 att.HolosightBone = "holosight"
 att.HolosightMagnification = 1.75
 att.HolosightBlackbox = false

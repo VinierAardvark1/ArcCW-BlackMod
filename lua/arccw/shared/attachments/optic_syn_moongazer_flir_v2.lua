@@ -27,7 +27,7 @@ att.Model = "models/weapons/atts/farview2.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 12.5, -1.5),
+        Pos = Vector(-0.025, 11, -1.5),
         Ang = Angle(0, 0, 0),
         Magnification = 2.25,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
@@ -39,7 +39,7 @@ att.AdditionalSights = {
         IgnoreExtra = true
     },
 	{
-        Pos = Vector(0, 12.5, -1.5),
+        Pos = Vector(-0.025, 11, -1.5),
         Ang = Angle(0, 0, 0),
         Magnification = 2.25,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
@@ -58,7 +58,7 @@ att.ScopeGlint = true
 att.Holosight = true
 att.HolosightReticle = Material("hud/scopes/syn_sniper_thermal.png", "mips smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 14
+att.HolosightSize = 21
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/atts/farview2_hsp.mdl"
 att.Colorable = false

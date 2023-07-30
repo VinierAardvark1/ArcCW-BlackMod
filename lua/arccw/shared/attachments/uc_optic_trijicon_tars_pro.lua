@@ -1,9 +1,9 @@
 att.PrintName = "Trijicon Tactical Advanced Riflescope Pro Modification (5-25x)"
 att.AbbrevName = "TARS PRO-MOD (5-25x)"
-att.Icon = Material("entities/att/tars.png", "mips smooth")
+att.Icon = Material("entities/att/acwatt_uc_optic_trijicon_tars.png", "mips smooth")
 att.Description = [[Variable power scope, adjustable for a very wide range of magnifications. This one has been outfitted with a longer magnification range at the cost of being bulkier.
 3-15x to 5-25x, and a little heavier. Seems like a worthwhile trade to me, eh? Just don't try to use this thing for CQC... for obvious reasons.]]
-att.SortOrder = 15
+att.SortOrder = 8
 att.Desc_Pros = {
     "autostat.holosight",
     "autostat.zoom"
@@ -23,9 +23,10 @@ att.ModelScale = Vector(1.05,1.05,1.05)
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 10.6, -1.55),
+        Pos = Vector(0, 10.6, -1.51),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 25,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ScopeMagnificationMin = 5,
         ScopeMagnificationMax = 25,
@@ -34,7 +35,7 @@ att.AdditionalSights = {
             Holosight = true,
             HolosightReticle = Material("hud/scopes/uc_tars_reticle.png", "mips smooth"),
             HolosightNoFlare = true,
-            HolosightSize = 10.2,
+            HolosightSize = 18,
             HolosightPiece = "models/weapons/arccw/atts/uc_trijicon_tars_hsp.mdl",
             HolosightBlackbox = true,
             HolosightMagnification = 12,
@@ -63,5 +64,5 @@ att.HolosightPiece = "models/weapons/arccw/atts/uc_trijicon_tars_hsp.mdl"
 -- att.HolosightBone = "holosight"
 att.Colorable = true
 
-att.Mult_SightedSpeedMult = 0.6
-att.Mult_SightTime = 1.2
+att.Mult_SightedSpeedMult = 0.65
+att.Mult_SightTime = 1.23

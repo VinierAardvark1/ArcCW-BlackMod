@@ -25,26 +25,24 @@ att.Slot = "optic"
 
 att.GivesFlags = {"hugesight"}
 
-att.Model = "models/weapons/atts/uc_nvis.mdl" --"models/weapons/arccw/atts/farview2.mdl"
+att.Model = "models/weapons/arccw/atts/uc_nvis.mdl" --"models/weapons/arccw/atts/farview2.mdl"
 att.ModelOffset = Vector(0, 0, 0.18)
 
 att.AdditionalSights = {
     {
-        Pos = Vector(-0.035, 6, -1.25), --X, 7, Z
+        Pos = Vector(-0.035, 6.5, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 2.25,
+        ViewModelFOV = 25,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 6,
         ZoomSound = "weapons/atts/fiveseven/fiveseven_slideback.wav",
         IgnoreExtra = true
     },
     {
-        Pos = Vector(-1, 10, -1.25),
+        Pos = Vector(-1, 8, -1.25),
         Ang = Angle(0, 0, -40),
         Magnification = 1.5,
-        ScrollFunc = ArcCW.SCROLL_ZOOM,
-        ZoomLevels = 6,
-        ZoomSound = "weapons/atts/fiveseven/fiveseven_slideback.wav",
         IgnoreExtra = true
     }
 }
@@ -54,9 +52,9 @@ att.ScopeGlint = true
 att.Holosight = true
 att.HolosightReticle = Material("hud/scopes/syn_sniper_sunbeam_mk2.png")
 att.HolosightNoFlare = true
-att.HolosightSize = 13 --13
+att.HolosightSize = 20
 att.HolosightBone = "holosight"
-att.HolosightPiece = "models/weapons/atts/uc_nvis_hsp.mdl"  --"models/weapons/arccw/atts/farview2_hsp.mdl"
+att.HolosightPiece = "models/weapons/arccw/atts/uc_nvis_hsp.mdl"  --"models/weapons/arccw/atts/farview2_hsp.mdl"
 att.Colorable = false
 
 att.HolosightMagnification = 3
