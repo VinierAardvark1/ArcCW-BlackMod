@@ -12,7 +12,7 @@ att.Desc_Cons = {
     "Not nearly as good"
 }
 att.Desc_Neutrals = {
-    "Attaches optic rails for some reason?",
+    "Attaches optic rails for some reason?", --literally why
     "blackmod.desc"
 }
 att.AutoStats = true

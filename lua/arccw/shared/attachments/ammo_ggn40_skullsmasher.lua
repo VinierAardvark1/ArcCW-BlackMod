@@ -24,9 +24,6 @@ att.Desc_Neutrals = {
 att.AutoStats = true
 att.Slot = {"ammo_bullet","go_ammo"}
 
-att.Override_Damage = 99999999999
-att.Override_DamageMin = 99999999999
-
 att.Mult_ShootPitch = 0.1
 att.Mult_ShootVol = 2
 att.Mult_AccuracyMOA = 0
@@ -39,10 +36,12 @@ att.Mult_SpeedMult = 0.25
 att.Mult_SightedSpeedMult = 0.25
 att.Mult_CycleTime = 1.5
 att.Mult_ReloadTime = 3
-att.Mult_MuzzleVelocity = 999999
+att.Mult_MuzzleVelocity = 99999999999
 att.Mult_HipDispersion = 0
 att.Mult_SightsDispersion = 0
 
+att.Override_Damage = 99999999999
+att.Override_DamageMin = 99999999999
 att.Override_Penetration = 99999999999
 att.Override_PhysTracerProfile = 7
 att.Override_DamageType = DMG_DIRECT + DMG_AIRBOAT + DMG_DISSOLVE
