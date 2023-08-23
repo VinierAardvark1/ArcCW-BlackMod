@@ -1,6 +1,6 @@
 include("ba2/methods.lua")
 
-att.Ignore = true
+att.Ignore = true --Legacy File
 att.PrintName = "Plague Darts" --Shotguns Only
 att.Icon = Material("entities/att/ammo_plague_dart.png")
 att.Description = [[A specially loaded, low-power round containing a modified dart filled with an unidentified Bio-Hazardous compound, created by some insane military scientist and found in a field beside a drone made from scrap metal.

@@ -52,7 +52,7 @@ att.Override_PhysBulletMuzzleVelocity = 760
 
 att.Override_Ammo = "AR2"
 att.Override_Trivia_Calibre = "6.5 Grendel"
-att.AddSuffix = " Grendel"
+att.AddSuffix = " Grendel" --Will have to do for proper name due to lack of urbna access (zenith doesn't want more M16 attachments anyway, so he'd lynch me if I asked)
 att.Override_ShellModel = "models/weapons/arccw/uc_shells/762x39.mdl"
 att.Override_ShellScale = 1
 
