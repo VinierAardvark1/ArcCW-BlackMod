@@ -14,7 +14,7 @@ att.Desc_Neutrals = {
 }
 att.AutoStats = true
 att.NotForNPCs = true
-att.Slot = {"ammo_shotgun","go_ammo"}
+att.Slot = {"ammo_shotgun","go_ammo","ud_ammo_shotgun","uc_ammo"}
 
 att.Override_Num = 100
 att.Override_Penetration = 0.1

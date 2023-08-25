@@ -23,8 +23,8 @@ att.Mult_RPM = 1.1
 
 att.Mult_Range = 1.65
 att.Mult_RangeMin = 1.5
-att.Mult_AccuracyMOA = 0.25
-att.Mult_HipDispersion = 5
+att.Mult_AccuracyMOA = 0.015
+att.Mult_HipDispersion = 3.25
 att.Mult_SightsDispersion = 2
 
 att.Mult_ReloadTime = 1.05
@@ -32,12 +32,14 @@ att.Mult_Damage = 0.7
 att.Mult_DamageMin = 0.45
 att.Mult_Penetration = 0.675
 
+att.Override_ChamberSize = 0
+
 att.Hook_GetCapacity = function(wep, cap)
     return 1
 end
 
 att.Hook_Compatible = function(wep)
-    if (wep.RegularClipSize or wep.Primary.ClipSize) == 1 then return false end
+    if (wep.RegularClipSize or wep.Primary.ClipSize) == 1 then return false end --Find out how to make work on double barrels but not load 2 shells on other shotguns
 end
 
 att.Hook_Compatible = function(wep)
