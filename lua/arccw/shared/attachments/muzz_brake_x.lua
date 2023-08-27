@@ -1,4 +1,4 @@
-att.PrintName = "Muzzle Brake Model X"
+att.PrintName = "Muzzle Brake Mk. X"
 att.Icon = Material("entities/att/muzz_brake_X.png", "mips smooth")
 att.Description = [[Modified muzzle device that redirects firing gases to help stabilize recoil, reconstructed with heavier metals to increase said stability and accuracy at the cost of handling and draw time.
 I don't know, just seems like something you'd need for some of those heavier caliber rifles. Let me know how it turns out, because the manufacturer claims these were made from solid titanium. They also went out of business shortly after making a few of these, so maybe they weren't lying.]]

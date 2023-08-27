@@ -3,7 +3,7 @@ att.PrintName = "MASMAR-0 Stimulant Dart - Pistol Load" --Medical Adrenaline Sho
 att.AbbrevName = "Stim Shot"
 att.Icon = Material("entities/att/ammo_stimshot.png")
 att.Description = [[A modified, more helpful variant of the bullet-to-dart mechanism used by the infamous CRM-409 "Plague Darts." Rather than infecting targets with a hyper-lethal, hyper-infectious virus, the dart is filled with a small dose of epinephrine, also known as adrenaline, put in a saline solution. The darts are intended to be used at close-to-medium range to get fellow operatives back on their feet in the heat of battle, but a skilled marksman can easily deliver long-ranged healing if required. As this dart is about the size of a pistol bullet and does not produce enough force to cycle a weapon's action, it's common practice to treat all guns as single shot while in use.
-These things are pretty fuckin' awesome. Although I've heard that using epinephrine doubles the change of severe brain damage. But what do I know? I'm a black market weapons dealer, not a doctor. Hell, I had to look up what epinephrine was when I was given the package.]]
+These things are pretty fuckin' awesome. Although I've heard that using epinephrine doubles the change of severe brain damage. But what do I know? I'm a black market arms dealer, not a doctor. Hell, I had to look up what epinephrine was when I was given the package.]]
 att.SortOrder = 999
 att.Desc_Pros = {
     "Support players/NPCs",

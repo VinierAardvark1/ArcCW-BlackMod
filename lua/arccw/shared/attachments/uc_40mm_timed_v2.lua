@@ -2,7 +2,7 @@ att.PrintName = "40mm Timed Explosive Charge V2"
 att.AbbrevName = "Timed Charge V2"
 att.Icon = Material("entities/att/arccw_uc_40mm_generic.png", "mips smooth")
 att.Description = [[A high explosive grenade with configurable timed fuse and carrying a heavier payload. Does not detonate on impact. Useful when shooting around corners.
-This model is the same as the regular one, but has more delay options.]]
+This model has more delay options than the original.]]
 att.Desc_Pros = {
     "uce.timed1",
     "Larger explosion radius"
@@ -33,28 +33,13 @@ att.Override_Firemodes = {
     },
     {
         Mode = 1,
-        PrintName = "0.75s",
-        DetonationDelay = 0.75
-    },
-    {
-        Mode = 1,
         PrintName = "1s",
         DetonationDelay = 1
     },
     {
         Mode = 1,
-        PrintName = "1.25s",
-        DetonationDelay = 1.25
-    },
-    {
-        Mode = 1,
         PrintName = "1.5s",
         DetonationDelay = 1.5
-    },
-    {
-        Mode = 1,
-        PrintName = "1.75s",
-        DetonationDelay = 1.75
     },
     {
         Mode = 1,
@@ -63,13 +48,28 @@ att.Override_Firemodes = {
     },
     {
         Mode = 1,
-        PrintName = "1.5s",
-        DetonationDelay = 1.5
+        PrintName = "2.5s",
+        DetonationDelay = 2.5
     },
     {
         Mode = 1,
         PrintName = "3s",
         DetonationDelay = 3
+    },
+    {
+        Mode = 1,
+        PrintName = "3.5s",
+        DetonationDelay = 3.5
+    },
+    {
+        Mode = 1,
+        PrintName = "4s",
+        DetonationDelay = 4
+    },
+    {
+        Mode = 1,
+        PrintName = "4.5s",
+        DetonationDelay = 4.5
     },
     {
         Mode = 1,
