@@ -1,7 +1,7 @@
 att.PrintName = "Prototype Sear Mk. II"
 att.Icon = Material("entities/att/tac_synthesis_placeholder_blackmod.png")
 att.Description = [["Firemode conversion designed to circumvent early machine gun regulations by making the gun fire continuously until empty."
-Some psychopath looked at this mechanism, said "I didn't like my wrists anyways," and decided to crank up the fire rate to way-too-damn-much. Apparently this was made by something the guys called a "VHS start-up..."' Why a VHS company would make anything related to firearms I don't know. Maybe I'm taking that name too literal, but either way you have a new toy to fuck with.
+Some psychopath looked at this old mechanism, said "I didn't like my wrists anyways," and decided to crank up the fire rate to way-too-damn-much. Apparently this was made by something the guys called a "VHS start-up..."' Why a VHS company would make anything related to firearms I don't know. Maybe I'm taking that name too literal, but either way you have a new toy to fuck with.
 Have fun controlling your gun with it, but have fun, yeah? For sure.]]
 att.Desc_Pros = {
     "pro.sputter",

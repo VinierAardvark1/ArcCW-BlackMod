@@ -1,6 +1,6 @@
 att.PrintName = "Back to Basics"
 att.Icon = Material("entities/att/perk_b2b.png")
-att.Description = [[Uhh... yeah, y'know I'm not a real big gun nut, but when someone say to "strip" a gun, they don't mean to trash what isn't the bare essentials and toss it all in a painted polymer housing. This is not what anyone had in mind! Whatever, have fun trying to use that... thing.]]
+att.Description = [[Uhh... yeah. Hm. Y'know, I'm not a real big gun nut like some people are, but when someone say to "strip" a gun down and reassemble it, I doubt they meant to take the bare essentials and toss them in a painted polymer housing. This is not what anyone had in mind! Whatever, have fun trying to use that... thing. You'll be lucky if it even stays together.]]
 att.Desc_Pros = {
 	"Ultra light weight.",
 }

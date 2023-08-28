@@ -1,4 +1,5 @@
-att.PrintName = "SLAP Rounds"
+att.PrintName = "Saboted Light Armor Penetrator Cartridges"
+att.AbbrevName = "SLAP Rounds"
 att.Icon = Material("entities/att/ammo_slap.png")
 att.Description = [[Saboted Light Armor Penetrator. Designed to penetrate armor better than standard AP ammo with a polymer sabot using a tungsten penetrator projectile. The projectile itself is a reduced caliber tungsten core wrapped in plastic, ie a .308 SLAP round would be .223 of penetrator core wrapped around .308 plastic sabot. Also designed for use against lightly armored vehicles and aircraft.
 Went through a lot of hoops to get ahold of these babies. Not as good as killing as standard FMJ, but I'll be damned if that made them worthless.]]

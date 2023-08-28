@@ -50,7 +50,7 @@ att.Hook_PostFireBullets = function(wep)
 
     local dir = wep.Owner:GetForward()
     if wep.Owner:IsPlayer() and wep.Owner:GetPhysicsObject():IsValid() then
-        local v = dir * (wep.Owner:IsOnGround() and -3 or -1) * math.Clamp(math.sqrt(wep.Recoil), 0.5, 3) * 60
+        local v = dir * (wep.Owner:IsOnGround() and -3 or -1) * math.Clamp(math.sqrt(wep.Recoil), 0.5, 3) * 60 --Controls self knockback value
         if wep.Owner:IsOnGround() then v = v * 0.25 end
         wep.Owner:SetVelocity( v )
     end

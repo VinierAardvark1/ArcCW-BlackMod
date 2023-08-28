@@ -1,8 +1,8 @@
-att.PrintName = ".50 goddamn BMG. In a fucking SHOTGUN. Why?"
+att.PrintName = ".50 BMG shoved into a shotgun. Why?"
 att.AbbrevName = ".50 BMG Cartridge"
 att.Icon = Material("entities/att/tac_synthesis_placeholder_blackmod.png")
 att.Description = [["If God didn't want me to stick a .50 BMG round into a 12 gauge shotgun, He wouldn't have made the diameters match."
-Yeah, I know the joke. I personally think it's a stupid and moronic idea, but if you're so sure it'll work, here. Try it out and tell me how it goes. No, seriously, go ahead.]]
+Yeah, I know the joke. I personally think it's a stupid and moronic idea, but if you're so sure it'll work, here. Try it out and tell me how it goes. No, seriously, go ahead. I'll be watching-Don't ask how.]]
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
