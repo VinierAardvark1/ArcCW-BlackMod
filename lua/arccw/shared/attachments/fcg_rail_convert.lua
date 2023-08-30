@@ -1,7 +1,7 @@
 att.PrintName = "Railgun Conversion"
 att.Icon = Material("entities/att/fcg_rail_convert.png")
-att.Description = [[Modified firing mechanism with specially made internal components allow for any sniper-class weapon to be converted into a handheld railgun cannon, stolen from a hidden military base and delivered through our "delivery boys" to you... without the ammo, that is.
-I don't know, you ordered the fucking ammo, not me! I don't know where you put it... Look around, damn it! That stuff is expensive. And dangerous, mind you. Oh come on, it's still sharp!]]
+att.Description = [[Specialty-made firing mechanism with advanced internal components allow for any sniper-class weapon to be converted into a handheld railgun cannon hundreds of years more advanced than what the Navy made. Stolen directly from a hidden military instillation and delivered right to your front door through our "delivery boys"... without the ammo, that is.
+What do you mean you lost it?? I don't know, you're the one who ordered the fucking thing, not me! I'm not in charge of paying attention once it leaves the shop! I don't know where you or the delivery guys put it... Look around, damn it! That stuff is expensive. And dangerous, mind you. Oh come on, they're still sharp!]]
 att.Desc_Pros = {
 }
 att.Desc_Cons = {

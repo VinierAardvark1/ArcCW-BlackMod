@@ -1,9 +1,15 @@
-att.PrintName = "AutoBurst"
+att.PrintName = "Auto-Burst"
 att.Icon = Material("entities/att/placeholder_blackmod.png", "smooth mips")
 att.Description = [[Placeholder]]
-att.Desc_Pros = { "Placeholder" }
-att.Desc_Cons = { }
-att.Desc_Neutrals = { "blackmod.desc" }
+att.Desc_Pros = {
+    "Placeholder",
+}
+att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "Placeholder",
+    "blackmod.desc",
+}
 att.AutoStats = true
 att.Slot = {"go_perk", "fcg", "uc_fg"}
 

@@ -1,7 +1,7 @@
 att.PrintName = "IRONSHOCK Reforged"
 att.Icon = Material("entities/att/tac_synthesis_placeholder_blackmod.png")
 att.Description = [["An extremely cont▇ver▇▇ rec▇▇able armor system that ▇▇ rejected by ▇▇▇ ▇▇▇ S▇▇▇ the moment it was p▇▇▇ed to them ▇ their co▇▇▇▇ R&D ▇▇▇y,  S▇▇▇▇▇▇™, in ▇▇. ▇▇ reason ▇▇ ▇is was that ▇ utilized w▇▇essly ▇▇ging b▇▇t-t▇s ▇▇ reacted ▇ the iron content f▇n-"
-Seems like we've got our hands on something real good this time. So good that our friendly VHS company refused to even fund it. Lucky us, huh? Had my boys reverse engineer this bad boy off an old manual some "vampire sympathists" used, and now it's in your hands. Not sure how it was originally supposed to be, but have fun with it.]]
+Seems like we've got our hands on something real good this time. So good that our friendly VHS company refused to even fund it. Lucky us, huh? Had my boys reverse engineer this bad boy off an old manual some "vampire sympathists" used, and now it's in your hands. From what I can make out, it uses some fancy techno-bullshit to recharge your suit battery whenever you shoot someone. Not sure how it was originally supposed to handle, but have fun with it.]]
 att.Desc_Pros = {
     "Recharges more armor on hit"
 }
@@ -33,5 +33,5 @@ att.Hook_BulletHit = function(wep, data)
 
     if wep.Owner:Armor() > wep.Owner:GetMaxHealth() then return end
 
-    wep.Owner:SetArmor(math.Clamp(wep.Owner:Armor() + (data.damage * 0.125), 0, wep.Owner:GetMaxHealth()))
+    wep.Owner:SetArmor(math.Clamp(wep.Owner:Armor() + (data.damage * 0.125), 0, wep.Owner:GetMaxHealth())) --Error with SetArmor
 end

@@ -1,7 +1,8 @@
-att.PrintName = "Railgun Ammo"
+att.PrintName = "Railgun APFSDS Ammo"
+att.AbbrevName = "Railgun Ammo"
 att.Icon = Material("entities/att/ammo_railgun.png")
-att.Description = [[Custom-tooled cartridges allow for any sniper-class weapon (with the required conversion kit) to be made into a handheld railgun cannon with pin-point accuracy and heavy damage. Of course, this comes at the cost of recoil, decreased close range damage, handling speeds, and insane amounts of overpenetration. Due to the experimental nature of this entire system, reduced magazines are issued to prevent reliability issues.
-I'm glad you found it. Yeah, I have absolutely no idea how any of this even works, especially with some of the guns I've seen it tested on, but it does and god damn does it work beautifully.]]
+att.Description = [[Custom-tooled armor-piercing fin-stabilized discarding sabot cartridges allow for any sniper-class weapon (with the required conversion kit) to be made into a handheld railgun cannon with pin-point accuracy and heavy damage. Of course, this comes at the cost of recoil, decreased close range damage, handling speeds, and insane amounts of overpenetration. Due to the experimental nature of this entire system, reduced magazines are issued to prevent reliability issues.
+I'm glad you found it. Yeah, I have absolutely no idea how any of this even works. Magnets or something, maybe. All I know is that it does and god damn does it work beautifully. Could pick a flea off a dog's back at 500 yards, WITHOUT aiming! Ain't that something?]]
 att.SortOrder = 999
 att.Desc_Pros = {
 }

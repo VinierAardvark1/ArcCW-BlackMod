@@ -1,7 +1,7 @@
 att.PrintName = "Exploding Ammo"
 att.SortOrder = -1
 att.Icon = Material("entities/att/ammo_spiked.png")
-att.Description = [[Bullets designed to break the gun; more specifically, they are designed to explode and destroy the weapon used and injure or perhaps kill the person attempting to use said ammo.
+att.Description = [[Sabotaged ammunition left behind for enemy forces to find and use; more specifically, they are designed to explode and destroy the weapon used and injure or perhaps kill the person attempting to use said weapon. Typically put in guns and left behind for enemy armies, insurgent cells, or terrorists to find and attempt to use, typically demoralizing the enemy while also depleting enemy weapon supplies.
 These where not so easy to make, compared to sabotaged ammo. Unlike that, the charges in these were replaced with actual explosives. So technically, each bullet is a tiny bomb. That doesn't mean your bullets become explosive, but the results sure as hell are.]]
 
 att.Desc_Pros = {

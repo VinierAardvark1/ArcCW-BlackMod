@@ -1,8 +1,8 @@
 att.PrintName = "Sabotaged Ammo"
 att.SortOrder = -1
 att.Icon = Material("entities/att/ammo_spiked.png")
-att.Description = [[Bullets designed to jam the gun. A variant of exploding or spiked ammo used when the chances of lost munitions or weapons falling into friendly hands is high.
-These ain't too hard to make either, just use a smaller charge so the gun doesn't blow up and you have a bunch'a these babies. Pretty useful if you don't want the enemy to use your toys, or if you want them to get fustrated with them.]]
+att.Description = [[Bullets specifically designed to malfunction. A variant of exploding or spiked ammo used when the chances of lost munitions or weapons falling into friendly hands is high. Has the same demoralizing effect on enemies, but doesn't destroy their weapons when used.
+These ain't too hard to make, just use a smaller charge so the gun doesn't blow up and you have a bunch'a these babies. Pretty useful if you don't want the enemy to use your toys, or if you want them to get fustrated with them.]]
 
 att.Desc_Pros = {
 }

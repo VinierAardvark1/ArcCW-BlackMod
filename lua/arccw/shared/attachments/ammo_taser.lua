@@ -1,8 +1,8 @@
 att.PrintName = "Experimental Taser Rounds"
 att.AbbrevName = "Taser Bullets"
 att.Icon = Material("entities/att/ammo_taser.png")
-att.Description = [[Non-Lethal rounds developed to incapacitate high-value targets rather than eliminate them. Unlike a traditional Taser, these rounds are powered by a battery in the "bullet" itself rather than the firearm, meaning it's range isn't restricted by wires.
-Unfortunately, the research my colleagues gathered from the company these were made in was... incredibly limited, so as far as I know it can be dangerous to place these side-by-side, considering they have exposed wires running along the sides. For your safety, I recommend putting a single bullet in your mag, or directly into the chamber if you're able to.]]
+att.Description = [[Non-Lethal rounds developed to incapacitate high-value targets rather than eliminate them. Unlike a traditional taser, these rounds are powered by a battery in the "bullet" itself rather than the firearm, meaning it's range isn't restricted by wires. However, the battery is quite small, so sniping enemies with these isn't possible.
+Unfortunately, the research my colleagues gathered from the company these were made in was... incredibly limited, so as far as I know it can be dangerous to place these side-by-side, considering they have exposed wiring running along the sides. For your safety, I recommend putting a single bullet in your mag, or directly into the chamber if you're able to.]]
 att.Desc_Pros = {
     "Big damage buff",
 }

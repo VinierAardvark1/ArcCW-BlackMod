@@ -8,6 +8,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
+	"One gram of Titanium cost $186.63",
 	"blackmod.desc",
 }
 
