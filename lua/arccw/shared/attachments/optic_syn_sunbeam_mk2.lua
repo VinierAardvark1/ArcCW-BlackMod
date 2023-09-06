@@ -13,8 +13,7 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
     "Bright spotlight",
-    "May cause FPS drops",
-	"Do with that as you will."
+    "May cause FPS drops"
 }
 att.Desc_Neutrals = {
     "Actually useful if you use StormFox",

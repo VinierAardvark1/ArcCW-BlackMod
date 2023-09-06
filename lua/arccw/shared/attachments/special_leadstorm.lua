@@ -1,3 +1,4 @@
+att.HideIfBlocked = true
 att.PrintName = "Weapon Prototype #90 - Project Lead Storm"
 att.AbbrevName = "Lead Storm Kit" --ROCK AND STONE, BROTHER!
 att.Icon = Material("entities/att/special_leadstorm.png", "mips smooth")

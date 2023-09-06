@@ -21,9 +21,9 @@ att.Override_Penetration = 0.1
 
 att.Mult_ShootPitch = 0.75
 att.Mult_Damage = 1.25
-att.Mult_DamageMin = 0.5
+att.Mult_DamageMin = 0.15
 att.Mult_Range = 0.75
-att.Mult_Recoil = 1.25
+att.Mult_Recoil = 1.5
 att.Mult_CycleTime = 1.2
 att.Mult_RPM = 0.8
 att.Mult_ReloadTime = 1.2

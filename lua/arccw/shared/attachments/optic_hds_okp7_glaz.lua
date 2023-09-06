@@ -2,8 +2,8 @@ att.PrintName = "HDS Flip Sight w/ OKP-7"
 att.AbbrevName = "HDS Flip"
 att.Icon = Material("entities/att/optic_hds_okp7_glaz.png")
 att.Description = [[Magnified medium-range red-dot with a Thermal Feedback System which can outline long-range marks even through smoke for easier shooting.
-Managed to buy this piece off a Spetsnaz sniper. Says it helps him out in the field when visibility is low. I think the lock to it got damaged in shipping, so you can't flip it up and down anymore. Still works like a charm, managed to use it for some deer hunting before I put it up for sale.
-I should also mention, my guys downstairs added some extra zoom to it, since you'll most likely use this for longer distances than the original operator did.]]
+Managed to buy this piece off a Spetsnaz sniper. Says it helps him out in the field when visibility is low. I think the lock to it got damaged in shipping. Had to secure the hinges on the thing, so you can't flip it up and down anymore. Still works like a charm, managed to use it for some deer hunting before I put it up for sale. Made some nice venison stew, if you must know.]]
+-- Oh yeah, I should also mention; my guys downstairs added some extra zoom to it, since you'll most likely use this for longer distances than the original operator did.
 att.SortOrder = 120
 att.Desc_Pros = {
 	"autostat.holosight",
@@ -44,9 +44,9 @@ att.AdditionalSights = {
         HolosightData = {
             Holosight = true,
             ScrollFunc = ArcCW.SCROLL_ZOOM,
-			HolosightMagnification = 1.5,
-            HolosightMagnificationMin = 1.1,
-            HolosightMagnificationMax = 20,
+			HolosightMagnificationMin = 1.5,
+            HolosightMagnificationMin = 1.5,
+            HolosightMagnificationMax = 6,
             HolosightReticle = Material("hud/scopes/optic_hds_okp7_glaz.png"),
             HolosightNoFlare = true,
             HolosightSize = 15,
@@ -71,9 +71,9 @@ att.AdditionalSights = {
         ThermalHighlightColor = Color(0, 255, 0),
         HolosightData = {
             Holosight = true,
-			HolosightMagnification = 1.5,
-            HolosightMagnificationMin = 1.1,
-            HolosightMagnificationMax = 20,
+			HolosightMagnificationMin = 2,
+            HolosightMagnificationMin = 1.5,
+            HolosightMagnificationMax = 6,
             HolosightReticle = Material("hud/scopes/optic_hds_okp7_glaz_beta.png"),
             HolosightNoFlare = true,
             HolosightSize = 15,
@@ -91,8 +91,8 @@ att.HolosightReticle = Material("hud/scopes/optic_hds_okp7_glaz.png")
 att.HolosightSize = 20
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/atts/mw2r_glaz_okp7_hsp.mdl"
-att.HolosightMagnification = 1.5
-att.HolosightMagnificationMin = 1.1
-att.HolosightMagnificationMax = 20
+att.HolosightMagnificationMin = 2
+att.HolosightMagnificationMin = 1.5
+att.HolosightMagnificationMax = 6
 att.HolosightConstDist = 42
 att.Colorable = false

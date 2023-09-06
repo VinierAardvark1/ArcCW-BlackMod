@@ -8,7 +8,6 @@ att.Desc_Pros = {
     "autostat.holosight",
 }
 att.Desc_Cons = {
-	"Little zoom",
 	"Might look weird on some guns",
 }
 att.Desc_Neutrals = {
@@ -44,7 +43,7 @@ att.HolosightReticle = Material("hud/scopes/hudlr_cross.png", "smooth")
 att.HolosightFlare = nil
 att.Colorable = true
 att.HolosightNoFlare = true
-att.HolosightSize = 39 --45 is the minimum value for this overlay to take up whole screen, with top/bottom cutoff that is
+att.HolosightSize = 39 --45 is the minimum value for this overlay to take up whole screen, with top/bottom cutoff that is. Doesn't matter when most of this reticle is empty space lol
 att.HolosightConstDist = 20
 att.HolosightBone = "holosight"
 att.HolosightMagnification = 1

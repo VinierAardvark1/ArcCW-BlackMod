@@ -1,3 +1,4 @@
+att.HideIfBlocked = true
 att.PrintName = "Juggernaut Kit"
 att.Icon = Material("entities/att/special_juggernaut.png", "mips smooth")
 att.Description = [[An M134 fresh from the factory paired with a large backpack filled to the brim with munitions to make you feel like a proper juggernaut. The weight of the backpack slows you noticably while slightly weighing the gun down.
