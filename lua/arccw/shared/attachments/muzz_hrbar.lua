@@ -1,6 +1,7 @@
 att.PrintName = "Heavier Barrel"
 att.Icon = Material("entities/att/muzz_hrbar.png")
-att.Description = [[Titanium-reinforced barrel with vastly superior performance characteristics. Massively improves accuracy and recoil control at the cost of incredibly increased weapon weight.This thing is way too heavy for my liking. Feels like it was ripped straight off an autocannon. But what do I know? Maybe it'll help keep those more unwieldy guns of yours down.]]
+att.Description = [[Titanium-reinforced barrel with vastly superior performance characteristics. Massively improves accuracy and recoil control at the cost of incredibly increased weapon weight.
+This thing is way too heavy for my liking. Feels like it was ripped straight off an autocannon. But what do I know? Maybe it'll help keep those more unwieldy guns of yours down.]]
 att.SortOrder = 5
 att.Desc_Pros = {
 }

@@ -2,7 +2,7 @@ att.PrintName = "Trijicon Tactical Advanced Riflescope Pro Modification (5-25x)"
 att.AbbrevName = "TARS PRO-MOD (5-25x)"
 att.Icon = Material("entities/att/acwatt_uc_optic_trijicon_tars.png", "mips smooth")
 att.Description = [[Variable power scope, adjustable for a very wide range of magnifications. This one has been outfitted with a longer magnification range at the cost of being bulkier.
-3-15x to 5-25x, and a little heavier. Seems like a worthwhile trade to me, eh? Just don't try to use this thing for CQC... for obvious reasons.]]
+From 3-15x to 5-25x, and a little heavier. Seems like a worthwhile trade to me, eh? Just don't try to use this thing for CQC... for obvious reasons.]]
 att.SortOrder = 8
 att.Desc_Pros = {
     "autostat.holosight",

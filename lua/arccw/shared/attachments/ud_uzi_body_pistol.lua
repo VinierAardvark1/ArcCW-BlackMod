@@ -7,7 +7,7 @@ end
 
 att.Icon = Material("entities/att/acwatt_ud_uzi_body_micro.png", "smooth mips")
 att.Description = [[Micro Uzi frame modified to turn this sub-machine gun into a civillian pistol. Without an attach point for stocks, recoil is dramatically increased. Converts weapon to closed bolt operation.
-Not much reason to use this over the Micro Uzi frame, but maybe you appreciate the improved handling. I don't know. I'm sure you can find a way to get around it's restrictions.]]
+Not much reason to use this over the Micro Uzi frame, but maybe you appreciate the improved handling. I don't know. I'm sure you can find a way to get around its restrictions.]]
 att.Desc_Pros = {
 }
 att.Desc_Cons = {

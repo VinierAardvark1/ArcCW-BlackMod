@@ -1,9 +1,9 @@
 att.PrintName = "Stiletto 14 Oz. Milled-Face Framing Hammer with Curved Hickory Handle"
-att.AbbrevName = "Brain Cells"
+att.AbbrevName = "Hammer"
 att.Icon = Material("entities/att/perk_hammer.png")
 att.Description = [[I don't really know why you'd need a hammer, but I managed to find a pretty good one in my tool shed. I hope you know what you're doing with it; last guy that tried to use a hammer for "gunsmithing" had his l-wha... uhm, did-did you just smack yourself with it...?]]
 att.Desc_Pros = {
-	"You got a neat hammer",
+	"You got a neat hammer.",
 }
 att.Desc_Cons = {
 	"Brain Damage",
