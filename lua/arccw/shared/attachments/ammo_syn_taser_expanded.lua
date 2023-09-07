@@ -23,7 +23,9 @@ att.Mult_Damage = 20
 att.Mult_DamageMin = 20
 att.Mult_Recoil = 0.25
 att.Mult_Penetration = 0
+att.Mult_ReloadTime = 1.1
 att.Mult_AccuracyMOA = 0
+
 att.Override_ChamberSize = 0
 att.Override_DamageType = DMG_SHOCK
 
