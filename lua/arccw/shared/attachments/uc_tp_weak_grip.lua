@@ -6,7 +6,6 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
-    "Roleplay usage? idk, thought it would be funny(x3)",
     "blackmod.desc",
 }
 att.Slot = "uc_tp"

@@ -11,7 +11,7 @@ att.Desc_Neutrals = {
 	"blackmod.desc",
 }
 att.AutoStats = true
-att.Slot = {"ammo_shotgun","go_ammo","ud_ammo_shotgun","uc_ammo"}
+att.Slot = {"ammo_shotgun", "go_ammo", "ud_ammo_shotgun", "uc_ammo"}
 
 att.Mult_Num = 2
 att.Mult_RecoilSide = 1.1

@@ -6,7 +6,7 @@ att.Desc_Pros = {
     "100 fucking pellets"
 }
 att.Desc_Cons = {
-    "May cause lag, for obvious reasons"
+    "blackmod.shitcode"
 }
 att.Desc_Neutrals = {
     "OH FUCK",
@@ -14,15 +14,15 @@ att.Desc_Neutrals = {
 }
 att.AutoStats = true
 att.NotForNPCs = true
-att.Slot = {"ammo_shotgun","go_ammo","ud_ammo_shotgun","uc_ammo"}
+att.Slot = {"ammo_shotgun", "go_ammo", "ud_ammo_shotgun", "uc_ammo"}
 
 att.Override_Num = 100
 att.Override_Penetration = 0.1
 
 att.Mult_ShootPitch = 0.75
-att.Mult_Damage = 1.25
+att.Mult_Damage = 1.375
 att.Mult_DamageMin = 0.15
-att.Mult_Range = 0.75
+att.Mult_Range = 0.825
 att.Mult_Recoil = 1.5
 att.Mult_CycleTime = 1.2
 att.Mult_RPM = 0.8

@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
-    "SniperPenetratedRound (Sniper) ammo only",
+    "blackmod.sniperammo",
 	"blackmod.desc",
 }
 att.AutoStats = true

@@ -7,7 +7,7 @@ These where not so easy to make, compared to sabotaged ammo. Unlike that, the ch
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "May cause errors",
+    "blackmod.shitcode",
 }
 att.Desc_Neutrals = {
     "Doesn't actually destroy the weapon, but renders it completely unusable.",

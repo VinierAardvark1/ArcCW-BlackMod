@@ -7,11 +7,11 @@ att.SortOrder = 7
 att.Desc_Pros = {
     "autostat.holosight",
     "autostat.zoom",
-	"+Anti-Thermal + NVG"
+	"+ Anti-Thermal + NVG"
 }
 att.Desc_Cons = {
     "Visible Laser",
-	"-Uses a guide-light for Anti-Thermal"
+	"- Uses a guide-light for Anti-Thermal"
 }
 att.Desc_Neutrals = {
     "Guide-light is effective up to 2536 HUs",

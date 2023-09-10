@@ -13,7 +13,7 @@ att.Desc_Neutrals = {
 	"blackmod.desc",
 }
 att.AutoStats = true
-att.Slot = {"ammo_shotgun","go_ammo"}
+att.Slot = {"ammo_shotgun", "go_ammo"}
 
 att.Override_Num = 1
 

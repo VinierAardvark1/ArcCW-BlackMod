@@ -3,16 +3,16 @@ att.Icon = Material("entities/att/fcg_reversedualstage.png", "smooth mips")
 att.Description = [[Two-stage automatic trigger that increased RPM when sighted. The benefit of this system is... unclear, as the developer died in a no-knock raid in NY some time after shipping it, yet before we recieved it.
 I can't exactly explain his thought process for making this, as I had little connection with the guy before his passing; all I know is that this was the same guy that gave you JREA, so have some fun with it, yeah? In his honor.]]
 att.Desc_Pros = {
-    "+30% Fire rate when sighted",
+    "+ 30% Fire rate when sighted",
 }
 att.Desc_Cons = {
-    "+25% Recoil when sighted",
-    "+20% Horizontal recoil when sighted",
-    "+10% Visual recoil when sighted",
+    "+ 25% Recoil when sighted",
+    "+ 20% Horizontal recoil when sighted",
+    "+ 10% Visual recoil when sighted",
 }
 att.Desc_Neutrals = {
     "Has worse performance on non-automatic weapons",
-    "Blackmod.desc",
+    "blackmod.desc",
 }
 att.Slot = "fcg"
 att.InvAtt = "fcg_dualstage"

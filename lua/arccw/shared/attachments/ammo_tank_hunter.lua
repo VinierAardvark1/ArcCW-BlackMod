@@ -4,21 +4,19 @@ att.Icon = Material("entities/att/ammo_tank_hunter.png")
 att.Description = [[A heavily modified and overstuffed cartridge boasting incredibly destructive firepower at the cost of being extremely volatile. This allows the bullet to destroy more heavily armored vehicles and tanks at the same rate as artillery fire, but it's volatility and recoil (among other factors) makes it a poor choice to use for the continuous fire of machine guns. For that reason, it is restricted to being used in anti-material pattern rifles in a single shot fashion as recommended by the "manufacturer".
 You have to handle it slowly so you don't die trying to combat... whatever. I don't care. ...I know, I know-look; it annoys me as much as it annoys you, maybe even more, but it's better to stay safe than be sorry, right? Might save a limb or two out there.]]
 att.Desc_Pros = {
-    "Disorientates target",
-    "Can pierce the armor of Gredwich tanks",
+    "blackmod.gredwich",
 }
 att.Desc_Cons = {
-	"Forced Physical Bullets",
-    "Disorientate self",
+	"blackmod.phys",
 }
 att.Desc_Neutrals = {
-    "SniperPenetratedRound (Sniper) ammo only",
+    "blackmod.sniperammo",
     "Blast radius is 64 HU",
 	"Not based on any particular round, I just wanted something viable for heavier tanks that isn't an RPG of sorts",
 	"blackmod.desc",
 }
 att.AutoStats = true
-att.Slot = {"ammo_bullet","go_ammo","ammo_pap"}
+att.Slot = {"ammo_bullet", "go_ammo", "ammo_pap"}
 
 att.Mult_ShootPitch = 0.25
 att.Mult_ShootVol = 1.1

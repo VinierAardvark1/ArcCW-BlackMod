@@ -1,6 +1,7 @@
 att.PrintName = ".410 Bore"
 att.Icon = Material("entities/att/special_ammo_s&w_500_410_bore.png", "mips smooth")
-att.Description = "Just shove some fucking shotgun shells in the cylinder. What's the worst that could happen?"
+att.Description = [[Just shove some similarly-sized shotshells in the cylinder.
+What's the worst that could happen?]]
 att.Desc_Pros = {
 }
 att.Desc_Cons = {

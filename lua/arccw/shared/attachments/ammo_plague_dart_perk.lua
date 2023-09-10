@@ -11,6 +11,7 @@ att.Desc_Pros = {
     "Infects unarmored targets.",
 }
 att.Desc_Cons = {
+    "blackmod.phys",
 	"Can't infect targets with any armor.",
 }
 att.Desc_Neutrals = {

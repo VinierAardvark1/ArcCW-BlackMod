@@ -6,3 +6,6 @@ To Do:
 -Reanimate Wz. 35                                   (The Cylo)
 -Reanimate Stevens 620                              (The Cylo²)
 -Reanimate Volkssturmgewehr                         (The Cylo³)
+-Figure out how the hell bulk attachment files
+work and maybe use them to reduce file size         (hopefully.)
+-

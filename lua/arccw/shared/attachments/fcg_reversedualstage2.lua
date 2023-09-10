@@ -4,16 +4,16 @@ att.Description = [[Two-stage automatic trigger that increases RPM when sighted.
 Again, I can't exactly explain his thought process for making this; all I know is that this was the same guy that gave you JREA, so have some fun with it, yeah? In his honor.]]
 att.Desc_Pros = {
     "+ Fully automatic fire",
-    "+50% Fire rate when sighted",
-    "-40% recoil when not sighted",
+    "+ 50% Fire rate when sighted",
+    "- 40% recoil when not sighted",
 }
 att.Desc_Cons = {
-    "+20% Recoil when sighted",
+    "+ 20% Recoil when sighted",
     "Pretty unwieldy",
 }
 att.Desc_Neutrals = {
     "Has better performance on automatic weapons",
-    "Blackmod.desc",
+    "blackmod.desc",
 }
 att.Slot = "fcg"
 att.InvAtt = "fcg_dualstage"

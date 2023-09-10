@@ -6,14 +6,14 @@ Yeah, don't ask how I got this. Not nearly as difficult as the rest of the shit 
 
 Handle with extreme care.]]
 att.Desc_Pros = {
-    [[Massively increased blast radius]],
-    [[Leaves a damaging Radiation field after detonation]],
+    "Massively increased blast radius",
+    "Leaves a damaging Radiation field after detonation",
 }
 att.Desc_Cons = {
-    [[Hope you can calculate trajectory]],
+    "Hope you can calculate trajectory",
 }
 att.Desc_Neutrals = {
-    [[What the fuck did you think this was?]],
+    "What the fuck did you think this was?",
     [[Aside from a "BlackMod Item!"?]],
 }
 att.AutoStats = true

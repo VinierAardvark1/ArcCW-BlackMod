@@ -7,6 +7,7 @@ att.Desc_Pros = {
     "Drains momentum from players hit",
 }
 att.Desc_Cons = {
+    "blackmod.phys",
     "Most likely won't kill",
 }
 att.Desc_Neutrals = {

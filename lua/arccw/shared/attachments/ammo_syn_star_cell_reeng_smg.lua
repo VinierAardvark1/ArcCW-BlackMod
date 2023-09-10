@@ -1,4 +1,4 @@
-att.PrintName = "Re-engineered Energy Cell Prototype #3281" --smg
+att.PrintName = "Re-engineered Energy Cell Prototype #3281" --smg1
 att.AbbrevName = "STAR Re-engineered"
 att.Icon = Material("entities/att/tac_synthesis_placeholder_blackmod.png")
 att.Description = [["An external e▇rgy system d▇eloped by ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇'s cont▇cted R&D company, S▇▇▇▇▇▇™, as an alt▇▇tive to ▇e t▇di▇▇al m▇▇ine. Unlike m▇az▇▇, th▇ is ▇▇▇d enti▇ly ▇ ▇▇▇▇g ▇▇▇▇▇▇▇▇▇▇▇ ▇▇▇▇▇▇▇▇▇▇-"
@@ -6,19 +6,20 @@ From what I've overheard, this fancy mechanism turns your favorite gun to a lase
 Did I mention it overheats? Because it does. Very quickly, too, so watch out for that.]]
 att.Desc_Pros = {
     "Infinite Ammo",
-    "Cannot be a physbullet",
+    "blackmod.nophys",
 }
 att.Desc_Cons = {
     "Draws from Suit Energy for max damage",
     "Requires at least 5 Suit Energy",
     "Reduced overall damage",
-    "Susceptible to overheating"
+    "Susceptible to overheating",
+    "blackmod.shitcode",
 }
 att.Desc_Neutrals = {
     "blackmod.desc",
 }
 att.AutoStats = false
-att.Slot = {"ammo_bullet","ammo_shotgun","go_ammo"}
+att.Slot = {"ammo_bullet", "ammo_shotgun", "go_ammo"}
 
 att.Mult_Damage = 0.2
 att.Mult_DamageMin = 0.2

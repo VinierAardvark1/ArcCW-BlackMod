@@ -13,11 +13,11 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
     "Bright spotlight",
-    "May cause FPS drops"
+    "blackmod.shitcode",
 }
 att.Desc_Neutrals = {
     "Actually useful if you use StormFox",
-    "blackmod.desc"
+    "blackmod.desc",
 }
 att.AutoStats = true
 att.Slot = "optic"

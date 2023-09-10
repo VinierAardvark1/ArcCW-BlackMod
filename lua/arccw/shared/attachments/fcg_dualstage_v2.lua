@@ -3,16 +3,16 @@ att.Icon = Material("entities/att/fcg_dualstage_2.png", "smooth mips")
 att.Description = [[Two-stage automatic trigger that reduces RPM when sighted. The benefit of this system is improved recoil stability and control. This version has been upgraded to contain similar features to the reverse-engineered Reversed Dual Stage Auto model.
 Unfortunately, these upgrades are entirely "cosmetic" so to speak, and provide no real advantage over the original model.]]
 att.Desc_Pros = {
-    "-15% Recoil when sighted",
-    "-30% Horizontal recoil when sighted"
+    "- 15% Recoil when sighted",
+    "- 30% Horizontal recoil when sighted"
 }
 att.Desc_Cons = {
-    "-30% Fire rate when sighted",
+    "- 30% Fire rate when sighted",
 }
 att.Desc_Neutrals = {
     "Has worse performance on non-automatic weapons",
     "Figured someone would enjoy it.",
-    "Blackmod.desc",
+    "blackmod.desc",
 }
 att.Slot = "fcg"
 att.InvAtt = "fcg_dualstage"

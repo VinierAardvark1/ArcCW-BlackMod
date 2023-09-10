@@ -5,18 +5,18 @@ att.Description = [[A 12.7x99mm NATO/.50 BMG caliber cartridge boasting an armor
 I'd say to not use it against infantry, but I know you will.
 It's okay, I've done it too. Just watch for MP; if they catch you, you never heard'a me. OK?]]
 att.Desc_Pros = {
-    "Can pierce the armor of Gredwich tanks",
+    "blackmod.gredwich",
 }
 att.Desc_Cons = {
-	"Forced Physical Bullets",
+	"blackmod.phys",
 }
 att.Desc_Neutrals = {
-    "SniperPenetratedRound (Sniper) ammo only",
+    "blackmod.sniperammo",
     "Blast radius is 24 HU",
 	"blackmod.desc",
 }
 att.AutoStats = true
-att.Slot = {"ammo_bullet","go_ammo"}
+att.Slot = {"ammo_bullet", "go_ammo"}
 
 att.Mult_ShootPitch = 0.8
 att.Mult_ShootVol = 1.05

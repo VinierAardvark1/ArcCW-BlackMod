@@ -10,7 +10,6 @@ att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
 	"Takes field stripping to a new level",
-    "Roleplay usage? idk, thought it would be funny(x2)",
 	"blackmod.desc",
 }
 att.AutoStats = true

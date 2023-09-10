@@ -10,7 +10,6 @@ att.Desc_Cons = {
 	"Where did the hammer go?",
 }
 att.Desc_Neutrals = {
-    "Roleplay usage? idk, thought it would be funny",
 	"blackmod.desc",
 }
 att.AutoStats = true

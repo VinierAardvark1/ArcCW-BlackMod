@@ -10,15 +10,16 @@ att.Desc_Pros = {
     "Can overheal"
 }
 att.Desc_Cons = {
+    "blackmod.phys",
     "Can also heal enemies",
-    "Do not aim at the face."
+    "Do not aim at the face." --Can still kill if aimed at the head for whatever reason, probably because Rubat™
 }
 att.Desc_Neutrals = {
     "Only available on pistols as a single-shot cartridge.",
     "blackmod.desc"
 }
 att.AutoStats = true
-att.Slot = {"ammo_bullet","go_ammo","uc_ammo"}
+att.Slot = {"ammo_bullet", "go_ammo", "uc_ammo"}
 att.NotForNPCs = true
 att.MagReducer = true
 att.ActivateElements = {"reducedmag"}

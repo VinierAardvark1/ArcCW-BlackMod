@@ -17,7 +17,7 @@ att.Desc_Neutrals = {
 att.AutoStats = true
 att.SortOrder = 999
 att.NotForNPCs = true
-att.Slot = {"ud_ammo_shotgun","uc_ammo"} --Urban Renewal IZH-58 version
+att.Slot = {"ud_ammo_shotgun", "uc_ammo"} --Urban Renewal IZH-58 version
 
 att.RequireFlags = {"ur_dbs_barrel_sawedoff", "ur_dbs_stock_sawedoff", "ur_dbs_fg_extractor", "uc_tp_runandgun"}
 att.HideIfBlocked = true

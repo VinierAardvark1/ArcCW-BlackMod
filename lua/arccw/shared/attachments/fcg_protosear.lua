@@ -9,6 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
     "con.sputter",
     "con.sputter2",
+    "blackmod.shitcode",
 }
 att.Desc_Neutrals = {
 	"blackmod.desc",

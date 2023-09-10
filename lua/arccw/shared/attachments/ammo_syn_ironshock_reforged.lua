@@ -6,13 +6,14 @@ att.Desc_Pros = {
     "Recharges more armor on hit"
 }
 att.Desc_Cons = {
-    "Favored by ▇▇▇▇ ▇rrorists"
+    "Favored by ▇▇▇▇ ▇rrorists",
+    "blackmod.shitcode",
 }
 att.Desc_Neutrals = {
     "More Damage = More Armor",
 	"blackmod.desc",
 }
-att.Slot = {"ammo_bullet","go_ammo"}
+att.Slot = {"ammo_bullet", "go_ammo"}
 att.AutoStats = true
 
 att.Mult_Damage = 0.7

@@ -7,14 +7,13 @@ According to the seller's description, the original rifle was "made by Dr Seuss 
 
 So, maybe he was on to something...]]
 att.Desc_Pros = {
-    "Discombobulate target",
-    "Can pierce the armor of Gredwich tanks",
+    "blackmod.nophys",
+    "blackmod.gredwich",
     "Can probably pierce reality",
 }
 att.Desc_Cons = {
-    "Discombobulate self",
     "Can probably pierce reality",
-    "Can't pierce the map or big props, sadge",
+    "Can't pierce the map or big props, sadge", --Penetration does not work how I thought it did, and Arctic's only response was "that's a terrible idea."
 }
 att.Desc_Neutrals = {
     "SniperPenetratedRound (Sniper) ammo only",
@@ -22,7 +21,7 @@ att.Desc_Neutrals = {
 	"blackmod.desc",
 }
 att.AutoStats = true
-att.Slot = {"ammo_bullet","go_ammo"}
+att.Slot = {"ammo_bullet", "go_ammo"}
 
 att.Mult_ShootPitch = 0.1
 att.Mult_ShootVol = 2

@@ -11,14 +11,14 @@ att.Desc_Cons = {
     "Has a chance of exploding",
 }
 att.Desc_Neutrals = {
-	"Requires SniperPenetratedRound Ammo",
+	"blackmod.sniperammo",
     "Do not attempt in real life",
     "Does not change ejected/reloaded shell model",
     "Doesn't actually destroy the weapon, but renders it completely unusable.",
     "blackmod.desc",
 }
 att.AutoStats = true
-att.Slot = {"ammo_shotgun","go_ammo","ud_ammo_shotgun","uc_ammo"}
+att.Slot = {"ammo_shotgun", "go_ammo", "ud_ammo_shotgun", "uc_ammo"}
 
 att.NotForNPC = true
 

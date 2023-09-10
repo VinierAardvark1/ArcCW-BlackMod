@@ -12,7 +12,7 @@ att.Desc_Neutrals = {
 	"blackmod.desc",
 }
 att.AutoStats = true
-att.Slot = {"ammo_bullet","go_ammo","uc_ammo"}
+att.Slot = {"ammo_bullet", "go_ammo", "uc_ammo"}
 
 att.Mult_Damage = 0.75
 att.Mult_DamageMin = 1.1

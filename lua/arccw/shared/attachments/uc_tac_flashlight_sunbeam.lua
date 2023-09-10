@@ -8,7 +8,8 @@ att.Desc_Pros = {
     "uc.light"
 }
 att.Desc_Cons = {
-    "con.light"
+    "con.light",
+    "blackmod.shitcode",
 }
 att.Desc_Neutrals = {
     "Also useful if you use StormFox",

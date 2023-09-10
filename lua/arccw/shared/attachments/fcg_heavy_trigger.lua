@@ -6,7 +6,7 @@ I don't know how it fits on everything, but it does; makes it easier to install,
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "+50% Trigger delay time",
+    "+ 50% Trigger delay time",
 }
 att.Desc_Neutrals = {
 	"Not-So-Crisp trigger pulls",

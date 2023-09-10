@@ -8,6 +8,7 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
     "Blocks Pack-A-Punch",
+    "blackmod.shitcode",
 }
 att.Desc_Neutrals = {
 	"blackmod.desc",

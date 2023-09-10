@@ -4,7 +4,7 @@ att.Description = [[A new-and-improved hair trigger increase rate of fire but wo
 I get it, sometimes you just want to shoot but the trigger pull is a bit too heavy. This trigger mechanism should help you with that.
 I don't know how it fits on everything, but it does; makes it easier to install, I suppose. Least they're cheap...]]
 att.Desc_Pros = {
-    "-80% Trigger delay time",
+    "- 80% Trigger delay time",
 }
 att.Desc_Cons = {
 }

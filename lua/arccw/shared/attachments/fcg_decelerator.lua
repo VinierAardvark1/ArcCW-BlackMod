@@ -11,7 +11,7 @@ att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
     "if you're smart enough...",
-    "Blackmod.desc",
+    "blackmod.desc",
 }
 att.Slot = "fcg"
 

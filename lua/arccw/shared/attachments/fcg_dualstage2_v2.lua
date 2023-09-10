@@ -5,13 +5,13 @@ att.Desc_Pros = {
     "+ Fully automatic fire"
 }
 att.Desc_Cons = {
-    "-50% Fire rate when sighted",
-    "+20% Recoil when not sighted"
+    "- 50% Fire rate when sighted",
+    "+ 20% Recoil when not sighted"
 }
 att.Desc_Neutrals = {
     "Has better performance on automatic weapons",
     "Figured someone would enjoy it.",
-    "Blackmod.desc",
+    "blackmod.desc",
 }
 att.Slot = "fcg"
 att.InvAtt = "fcg_dualstage"

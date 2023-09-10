@@ -7,8 +7,8 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
     "con.obstruction",
-    "-Single Shot",
-    "-Voidleaks are scary"
+    "- Single Shot",
+    "- Voidleaks are scary"
 }
 att.Desc_Neutrals = {
     "Best used on Snipers for assassination shots",

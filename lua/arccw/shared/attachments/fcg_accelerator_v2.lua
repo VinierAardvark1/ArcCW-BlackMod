@@ -10,7 +10,7 @@ att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
     "Figured someone would enjoy it.",
-    "Blackmod.desc",
+    "blackmod.desc",
 }
 att.Slot = "fcg"
 
