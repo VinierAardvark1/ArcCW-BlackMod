@@ -18,6 +18,7 @@ att.Slot = {"ammo_shotgun", "go_ammo", "ud_ammo_shotgun", "uc_ammo"}
 
 att.Override_Num = 100
 att.Override_Penetration = 0.1
+att.Override_Jamming = true
 
 att.Mult_ShootPitch = 0.75
 att.Mult_Damage = 1.375
@@ -27,6 +28,8 @@ att.Mult_Recoil = 1.5
 att.Mult_CycleTime = 1.2
 att.Mult_RPM = 0.8
 att.Mult_ReloadTime = 1.2
+att.Mult_MalfunctionMean = 0.15
+att.Mult_MalfunctionVariance = 0.9
 
 att.Hook_Compatible = function(wep)
     if !wep:GetIsShotgun() then return false end

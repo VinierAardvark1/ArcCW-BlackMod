@@ -1,7 +1,7 @@
 att.PrintName = "12 Gauge Slugs"
 att.Icon = Material("entities/att/ammo_12g_slug.png")
-att.Description = [[Standard shotgun slug containing a solid, heavy lead projectile, design for hunting and self defense. They are typically bigger than a rifle bullet, and therefore have shorter ranges than a standard rifle would.
-I don't know why you ordered standard slugs from me of all people, but I guess the stuff you find elsewhere isn't good enough, huh? Whatever, I'm not one to judge. Take the slugs and go hunt some game for me, yeah? I'll make some reindeer roast for us some day
+att.Description = [[Standard shotgun slug containing a solid, heavy lead projectile, design for hunting and self defense. They are typically bigger and heavier than a rifle bullet, and therefore have shorter ranges than a standard rifle would.
+I don't know why you ordered regular ol' slugs from me of all people, but I guess the stuff you find elsewhere isn't good enough, huh? Whatever, I'm not one to judge. Take the slugs and go hunt some game for me, yeah? I'll make some reindeer roast for us some day.
 Promise.]]
 att.Desc_Pros = {
     "Great for single targets and longer ranges"

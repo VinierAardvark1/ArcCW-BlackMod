@@ -19,6 +19,8 @@ att.Mult_AccuracyMOA = 0.85
 att.Mult_MalfunctionMean = 1.5
 att.Mult_HeatCapacity = 1.275
 att.Mult_HeatDissipation = 1.275
+att.Mult_Damage = 0.8
+att.Mult_DamageMin = 0.75
 
 att.Hook_Compatible = function(wep)
     if wep.Num ~= 1 or (wep.Primary.Ammo ~= "pistol") then return false end

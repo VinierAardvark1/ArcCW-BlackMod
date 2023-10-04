@@ -1,7 +1,7 @@
 att.PrintName = "Jury-Rigged Explosive Ammo"
 att.AbbrevName = "JREA Ammo"
 att.Icon = Material("entities/att/ammo_jury_rigged.png")
-att.Description = [[A bullet with an explosive charge shoved inside. Based off the old ''Devil's Lance'' munitions, some crazed bastard took some and expanded it's capabilities to every other ammo type he could think of. So all of the ones you happen to use. The added weight of the charge makes these bullets rather heavy, so don't expect your targets to blow up instantaneously.
+att.Description = [[A bullet with an explosive charge shoved inside. Based off the old "Devil's Lance" munitions, some crazed bastard reverse engineered one and expanded it's explosive capabilities to every other ammo type he could think of. So all of the ones you happen to use. The added weight of the charge makes these bullets rather heavy, so don't expect your targets to blow up instantaneously.
 I don't expect these jury-rigged hunks of excess gunpowder and old brass to be reliable or safe in any way, shape, or form, but you clearly need them for something, so I won't try to stop you. Just don't blame me if you go up in flames one night.]]
 att.Desc_Pros = {
     "+ Explosion on hit, dealing 100% extra damage"
@@ -23,11 +23,13 @@ att.Mult_ShootVol = 1.4
 att.Mult_Penetration = 0
 att.Mult_Precision = 0.8
 att.Mult_Damage = 0.7
+
 att.Mult_Range = 0.7
 att.Mult_Recoil = 1.2
 att.Mult_RPM = 0.6
 att.Mult_ReloadTime = 1.25
 att.Mult_MuzzleVelocity = 0.5
+
 att.Mult_MalfunctionMean = 0.33
 att.Mult_MalfunctionVariance = 1
 att.Mult_HeatCapacity = 0.05
@@ -39,6 +41,7 @@ att.Mult_FixTime = 99999999999999
 att.Override_Num = 1
 att.Override_PhysTracerProfile = 1
 att.Override_AlwaysPhysBullet = true
+att.Override_Jamming = true
 
 att.Health = 4
 att.DamageOnReload = 1

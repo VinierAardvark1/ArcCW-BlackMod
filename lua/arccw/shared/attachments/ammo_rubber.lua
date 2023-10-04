@@ -24,8 +24,8 @@ att.Mult_Range = 0.5
 att.Mult_MuzzleVelocity = 0.75
 
 att.Override_Num = 1
-att.Override_Damage = 25
-att.Override_DamageMin = 2.5
+att.Override_Damage = 15
+att.Override_DamageMin = 1.5
 att.Override_AlwaysPhysBullet = true
 
 att.Override_DamageType = DMG_CLUB
