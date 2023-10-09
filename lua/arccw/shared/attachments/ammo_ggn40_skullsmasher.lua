@@ -16,7 +16,7 @@ att.Desc_Cons = {
     "Can't pierce the map or big props, sadge", --Penetration does not work how I thought it did, and Arctic's only response was "that's a terrible idea."
 }
 att.Desc_Neutrals = {
-    "SniperPenetratedRound (Sniper) ammo only",
+    "blackmod.sniperammo",
     "One gram of antimatter cost $62,500,000,000,000 ($62.5 trillion)",
 	"blackmod.desc",
 }
@@ -34,7 +34,7 @@ att.Mult_SightTime = 5
 att.Mult_SpeedMult = 0.25
 att.Mult_SightedSpeedMult = 0.25
 att.Mult_CycleTime = 1.5
-att.Mult_ReloadTime = 3
+att.Mult_ReloadTime = 1.5
 att.Mult_MuzzleVelocity = 99999999999
 att.Mult_HipDispersion = 0
 att.Mult_SightsDispersion = 0

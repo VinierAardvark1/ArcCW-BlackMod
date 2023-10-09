@@ -8,13 +8,13 @@ att.Desc_Pros = {
 att.Desc_Cons = {
     "You are an absolute madman.",
     "Or maybe just stupid",
-    "Has a chance of exploding",
+    "blackmod.danger1",
 }
 att.Desc_Neutrals = {
 	"blackmod.sniperammo",
     "Do not attempt in real life",
     "Does not change ejected/reloaded shell model",
-    "Doesn't actually destroy the weapon, but renders it completely unusable.",
+    "blackmod.danger2",
     "blackmod.desc",
 }
 att.AutoStats = true

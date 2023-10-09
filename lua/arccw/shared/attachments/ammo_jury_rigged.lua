@@ -9,9 +9,10 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 	"blackmod.phys",
     "blackmod.shitcode",
+    "blackmod.danger1",
 }
 att.Desc_Neutrals = {
-    "Doesn't actually destroy the weapon, but renders it completely unusable.",
+    "blackmod.danger2",
     "Blast radius is 32 HU",
 	"blackmod.desc",
 }

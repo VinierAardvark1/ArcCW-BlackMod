@@ -10,6 +10,7 @@ att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
 	"blackmod.desc",
+	"Namely used for animation testing."
 }
 
 att.Slot = {"ammo_bullet", "ammo_shotgun", "go_ammo", "uc_ammo", "ud_ammo_shotgun"}
