@@ -15,7 +15,7 @@ att.Slot = "uc_tp"
 att.AutoStats = true
 att.SortOrder = 14
 
-att.Mult_HipDispersion = 0.2
+att.Mult_HipDispersion = 0.45
 att.Mult_RecoilSide = 1.8
 att.Mult_SightTime = 2
 att.Mult_Sway = 1.9
@@ -23,8 +23,8 @@ att.Mult_Sway = 1.9
 att.LHIK = true
 att.LHIKHide = true
 
-att.Override_ActivePos = Vector(-2.5, 0, 1)
-att.Override_ActiveAng = Angle(0, 0, -60)
+att.Override_ActivePos = Vector(-2, 0, 2)
+att.Override_ActiveAng = Angle(0, 0, -70)
 
 att.Override_RecoilDirection = Angle(0.25, -2, 0)
 att.Override_RecoilDirectionSide = Angle(1, 1, 0)
