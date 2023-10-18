@@ -6,8 +6,7 @@ To Do (in no particular order):
 -Reanimate Wz. 35
 -Reanimate Stevens 620
 -Reanimate Volkssturmgewehr
--Figure out how the hell bulk attachment files
-work and maybe use them to reduce file size
--Maybe reanimate other weapons to higher quality
--Figure out how to make single-load ammo attachments load two shells for double barrel weapons
+-Maybe reanimate other weapons to a higher quality
+-Figure out how the hell bulk attachment files work and maybe use them to reduce file size
+-Figure out how to make single-load ammo attachments load two shells for break-action barrel weapons (hopefully a more effective method than whats currently used)
 -MORE ASBESTOS
