@@ -1,5 +1,5 @@
 att.HideIfBlocked = true
-att.PrintName = "MASMAR-0 Stimulant Dart - Pistol Load" --Medical Adrenaline Shot Administered at Medium Ranges, Variant-0
+att.PrintName = "MASAMR-0 Stimulant Dart - Pistol Load" --Medical Adrenaline Shot Administered at Medium Ranges, Variant-0
 att.AbbrevName = "Stim Shot"
 att.Icon = Material("entities/att/ammo_stimshot.png")
 att.Description = [[A modified, more helpful variant of the bullet-to-dart mechanism used by the infamous CRM-409 "Plague Darts." Rather than infecting targets with a hyper-lethal, hyper-infectious virus, the dart is filled with a small dose of epinephrine, also known as adrenaline, put in a saline solution. The darts are intended to be used at close-to-medium range to get fellow operatives back on their feet in the heat of battle, but a skilled marksman can easily deliver long-ranged healing if required. As this dart is about the size of a pistol bullet and does not produce enough force to cycle a weapon's action, it's common practice to treat all guns as single shot while in use.
