@@ -7,7 +7,7 @@ end
 
 att.SortOrder = -1
 att.Icon = Material("entities/att/uc_bullets/50beowulf.png", "smooth mips")
-att.Description = [[Semi-automatic receiver chambered in 6.5 Grendel, a long-range cartridge with ballistic performance closer to 7.62×39mm with half the recoil, although more closely related to .220 Russian. It can load into custom-made magazines at a slightly lower capacity than a standard AR-15 magazine.
+att.Description = [[Semi-automatic receiver chambered in 6.5 Grendel, a long-range cartridge with ballistic performance closer to 7.62×39mm with half the recoil. It can be loaded into custom-made magazines at a slightly lower capacity than a standard AR-15 magazine.
 The rifle is unable to handle the massive pressure at anything more than semi-automatic fire.]]
 att.Desc_Pros = {}
 att.Desc_Cons = {
@@ -16,7 +16,7 @@ att.Desc_Cons = {
     "Incompatible with magazines of unusual size."
 }
 att.Desc_Neutrals = {
-    "Due to obvious restrictions, the gun does not have its own firing sounds or a proper renaming.",
+    "Due to obvious restrictions, the gun does not have its own firing sounds or proper name.",
     "Not to be confused with 6.5 Creedmoor",
     "blackmod.desc",
 }
@@ -33,7 +33,7 @@ att.Override_ClipSize_Priority = 0.5
 att.Mult_ClipSize = 0.85 --shitty but worthwhile workaround for being unable to utilize custom magazine attachments.
 
 att.Mult_Damage = 0.8
-att.Mult_DamageMin = 3.55
+att.Mult_DamageMin = 3.5
 att.Mult_Penetration = 1.33
 
 att.Mult_Recoil = 2.1
@@ -42,8 +42,8 @@ att.Mult_RPM = 0.6
 att.Mult_Range = 1.23
 att.Mult_ShootVol = 1.175
 
-att.Mult_SightTime = 0.95
-att.Mult_ReloadTime = 0.865
+att.Mult_SightTime = 0.9
+att.Mult_ReloadTime = 0.85
 att.Mult_Sway = 0.75
 
 att.Mult_SpeedMult = 1.05
@@ -52,7 +52,7 @@ att.Override_PhysBulletMuzzleVelocity = 760
 
 att.Override_Ammo = "AR2"
 att.Override_Trivia_Calibre = "6.5 Grendel"
-att.AddSuffix = " Grendel" --Will have to do for proper name due to lack of urbna access (zenith doesn't want more M16 attachments anyway, so he'd lynch me if I asked)
+att.AddSuffix = " 6.5 Grendel" --Will have to do for proper name due to lack of urbna access (zenith doesn't want more M16 attachments anyway, so he'd lynch me if I asked)
 att.Override_ShellModel = "models/weapons/arccw/uc_shells/762x39.mdl"
 att.Override_ShellScale = 1
 

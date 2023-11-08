@@ -1,6 +1,6 @@
 att.PrintName = "Point Shooting Stance"
 att.Icon = Material("entities/att/arccw_ud_pointshoot.png", "smooth mips")
-att.Description = "Give your AN/PEQ a reason to be thin, except this time it's much easier to aim with the laser. Or down the side of the gun, if you want."
+att.Description = "Give your AN/PEQ a reason to be thin, except this time you can aim down the side of the gun, if you want."
 att.Desc_Pros = {}
 att.Desc_Cons = {}
 att.Desc_Neutrals = {
@@ -11,7 +11,7 @@ att.Desc_Neutrals = {
 }
 att.Slot = "ud_m16_charm"
 
-att.ActivateElements = {"bravo_dicks_going_fart"}
+att.ActivateElements = {"bravo_dicks_going_fart"} --actual element name, lol
 att.AdditionalSights = {
     {
         Pos = Vector(-1, 27, -2),
