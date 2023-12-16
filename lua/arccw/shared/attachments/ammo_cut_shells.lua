@@ -38,9 +38,9 @@ att.Hook_GetCapacity = function(wep, cap)
     return 1
 end
 
-att.Hook_Compatible = function(wep)
-    if (wep.RegularClipSize or wep.Primary.ClipSize) == 1 then return false end --Find out how to make work on double barrels but not load 2 shells on other shotguns
-end
+-- att.Hook_Compatible = function(wep)
+--     if (wep.RegularClipSize or wep.Primary.ClipSize) == 1 then return false end --Find out how to make work on double barrels but not load 2 shells on other shotguns
+-- end
 
 att.Hook_Compatible = function(wep)
     if !wep:GetIsShotgun() then return false end

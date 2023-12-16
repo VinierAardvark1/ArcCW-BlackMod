@@ -33,16 +33,18 @@ att.Mult_MuzzleVelocity = 0.5
 
 att.Mult_MalfunctionMean = 0.33
 att.Mult_MalfunctionVariance = 1
-att.Mult_HeatCapacity = 0.05
-att.Mult_HeatDissipation = 0.075
+att.Mult_HeatCapacity = 0.5
+att.Mult_HeatDissipation = 0.75
 att.Mult_HeatDelayTime = 1
 att.Mult_FixTime = 99999999999999
+att.Mult_PhysBulletGravity = 10
 
 
 att.Override_Num = 1
 att.Override_PhysTracerProfile = 1
 att.Override_AlwaysPhysBullet = true
 att.Override_Jamming = true
+att.Override_PhysBulletImpact = false
 
 att.Health = 4
 att.DamageOnReload = 1
@@ -62,17 +64,13 @@ att.Hook_Compatible = function(wep)
     if wep:GetCapacity() == 1 then return false end
 end
 
-att.Override_AlwaysPhysBullet = true
-att.Mult_PhysBulletGravity = 10
-att.Override_PhysBulletImpact = false
-
 att.Hook_PhysBulletHit = function(wep, data)
     if SERVER then
     local delta = data.bullet.Travelled / (data.bullet.Range / ArcCW.HUToM)
     delta = math.Clamp(delta, 0, 1)
     local dmg = Lerp(delta, data.bullet.DamageMax, data.bullet.DamageMin)
 
-    util.BlastDamage(wep, wep:GetOwner(), data.tr.HitPos, 128, dmg)
+    util.BlastDamage(wep, wep:GetOwner(), data.tr.HitPos, 128, dmg) --error here: Tried to use a NULL entity!
 
     local eff = EffectData()
     eff:SetOrigin(data.tr.HitPos)
