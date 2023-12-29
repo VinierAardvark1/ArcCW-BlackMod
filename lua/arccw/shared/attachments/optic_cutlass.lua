@@ -15,7 +15,7 @@ att.Desc_Neutrals = {
 att.SortOrder = 8
 
 att.AutoStats = true
-att.Slot = {"optic_sniper"}
+att.Slot = {"optic_sniper", "optic"}
 
 att.Model = "models/weapons/atts/bocw_att_optic_pellingtonscope.mdl"
 att.ModelOffset = Vector(0, 0, -0.3)

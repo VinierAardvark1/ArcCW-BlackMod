@@ -19,7 +19,7 @@ att.Desc_Neutrals = {
     "blackmod.desc"
 }
 att.AutoStats = true
-att.Slot = "optic"
+att.Slot = {"optic_sniper", "optic"}
 
 att.GivesFlags = {"hugesight"}
 

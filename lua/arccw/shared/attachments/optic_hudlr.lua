@@ -16,7 +16,7 @@ att.Desc_Neutrals = {
 }
 
 att.AutoStats = true
-att.Slot = {"optic_sniper","optic","optic_lp","backup"}
+att.Slot = {"optic_sniper", "optic", "optic_lp", "backup"}
 
 att.Model = "models/weapons/atts/2d_3b2_hsp.mdl"
 att.HolosightPiece = "models/weapons/atts/2d_3b2_hsp.mdl"
