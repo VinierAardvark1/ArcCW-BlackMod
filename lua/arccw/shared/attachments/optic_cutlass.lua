@@ -1,6 +1,6 @@
 att.PrintName = "Custom-Tooled Long Range Assisted Shooting and Surveillance Scope (5x-500x)"
 att.AbbrevName = "CUTLASS Scope (5x-500x)"
-att.Icon = Material("entities/acwatt_optic_bocw_hm.png", "mips smooth")
+att.Icon = Material("entities/att/placeholder_blackmod.png", "mips smooth")
 att.Description = [[Telescopic optic that was originally packaged with a variant of the Remington 700 rifle, nicknamed the Pellington. This particular scope was chosen for its simplistic design and relatively compact size. It's been extensively modified for longer ranges and low-visibility conditions, sporting a ridiculous amount of variable zoom and built-in thermal imaging system, as well as a number of optimizations to reduce all the weight.
 Just don't ask where all the electronics are, because I don't exactly know and its creator went off the grid months ago.]]
 att.Desc_Pros = {

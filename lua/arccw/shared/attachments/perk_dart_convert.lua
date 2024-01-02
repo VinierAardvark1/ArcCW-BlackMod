@@ -3,10 +3,8 @@ att.Icon = Material("entities/att/fcg_dart_convert.png")
 att.Description = [[A simple conversion kit that can change any gun into a CO2-powered air rifle, or pistol if you so desire.
 Why you would want to do this to a perfectly fine piece of human engineering, I don't really know, but maybe it allows for a gun to be used in a different manner?]]
 att.Desc_Pros = {
-	"Gives reload speed to compensate."
 }
 att.Desc_Cons = {
-	"No other perks."
 }
 att.Desc_Neutrals = {
 	"Exclusively for weapons that don't have a fcg slot.",
@@ -36,6 +34,4 @@ att.ExcludeFlags = {"fcg_dart_convert"}
 
 att.Hook_Compatible = function(wep)
     if not (wep.ManualAction or (wep:GetChamberSize() == 0 and (wep.RegularClipSize or wep.Primary.ClipSize) <= 2)) then return false end
-    local tbl = engine.ActiveGamemode() == "terrortown" and {"357"} or {"ar2", "SniperPenetratedRound"}
-    if not table.HasValue(tbl, wep.Primary.Ammo or "") then return false end
 end

@@ -1,13 +1,11 @@
-att.PrintName = "Auto-Burst"
+att.PrintName = "Auto-Burst Receiver"
 att.Icon = Material("entities/att/placeholder_blackmod.png", "smooth mips")
-att.Description = [[Placeholder]]
+att.Description = [[A modified receiver that allows for two alternate fire modes: a highly stable 4 round burst, and a less stable 2 round burst.]]
 att.Desc_Pros = {
-    "Placeholder",
 }
 att.Desc_Cons = {
 }
 att.Desc_Neutrals = {
-    "Placeholder",
     "blackmod.desc",
 }
 att.AutoStats = true
@@ -31,11 +29,20 @@ end
 
 att.Override_Firemodes = {
     {
+        Mode = -4,
+		RunawayBurst = true,
+		AutoBurst = true,
+        Mult_Recoil = 0.75,
+		PostBurstDelay = 0.5,
+    },
+    {
         Mode = -2,
 		RunawayBurst = true,
 		AutoBurst = true,
-		PostBurstDelay = 0.085,
+        Mult_Recoil = 1.25,
+		PostBurstDelay = 0.25,
     },
+    
     {
         Mode = 0
     }

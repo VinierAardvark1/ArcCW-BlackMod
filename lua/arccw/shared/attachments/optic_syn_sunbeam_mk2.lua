@@ -35,7 +35,7 @@ att.AdditionalSights = {
         ViewModelFOV = 25,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 6,
-        ZoomSound = "weapons/atts/fiveseven/fiveseven_slideback.wav",
+        ZoomSound = "weapons/arccw/fiveseven/fiveseven_slideback.wav",
         IgnoreExtra = true
     },
     {
