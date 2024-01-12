@@ -1,0 +1,1 @@
+CreateConVar("arccw_blackmod_nofly", 0, FCVAR_ARCHIVE + FCVAR_REPLICATED, "Whether to absolutely block any sort of flying with Airbender by killing all push force while in the air.", 0, 1)

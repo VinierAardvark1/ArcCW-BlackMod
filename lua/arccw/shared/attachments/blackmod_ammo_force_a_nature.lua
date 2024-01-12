@@ -48,7 +48,7 @@ att.Hook_PostFireBullets = function(wep)
     local dir = wep.Owner:GetForward()
     if wep.Owner:IsPlayer() and wep.Owner:GetPhysicsObject():IsValid() then
         local v = dir * (-3 or -1) * math.Clamp(math.sqrt(wep.Recoil), 0.5, 3) * 45 --Controls self knockback value
-        if GetConVar("arccw_extra_nofly"):GetBool() and not wep.Owner:IsOnGround() then v = v * 0.25 end
+        if GetConVar("arccw_blackmod_nofly"):GetBool() and not wep.Owner:IsOnGround() then v = v * 0.25 end
         wep.Owner:SetVelocity( v )
     end
 end

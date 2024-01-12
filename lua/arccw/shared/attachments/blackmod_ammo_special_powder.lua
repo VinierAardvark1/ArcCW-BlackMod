@@ -17,14 +17,13 @@ att.Desc_Neutrals = {
 att.AutoStats = true
 att.SortOrder = 999
 att.NotForNPCs = true
-att.Slot = {"ud_ammo_shotgun", "uc_ammo"} --Urban Renewal IZH-58 version
+att.Slot = "ammo_shotgun"
 
-att.RequireFlags = {"ur_dbs_barrel_sawedoff", "ur_dbs_stock_sawedoff", "ur_dbs_fg_extractor", "uc_tp_runandgun"}
 att.HideIfBlocked = true
 att.Free = true
 
 att.Hook_Compatible = function(wep)
-    return table.HasValue({"arccw_ur_db"}, wep.ClassName)
+    return table.HasValue({"arccw_izh43_sawnoff"}, wep.ClassName) --BlackMod IZH-43 version
 end
 
 att.Hook_PostFireBullets = function(wep)
