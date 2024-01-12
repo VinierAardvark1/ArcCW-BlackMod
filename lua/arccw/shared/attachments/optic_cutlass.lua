@@ -39,7 +39,7 @@ att.AdditionalSights = {
             HolosightPiece = "models/weapons/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
         },
         ScrollFunc = ArcCW.SCROLL_ZOOM,
-        ZoomLevels = 5,
+        ZoomLevels = 25,
         ZoomSound = "vz.zoomsmooth",
         IgnoreExtra = true,
     },
@@ -60,7 +60,7 @@ att.AdditionalSights = {
             HolosightPiece = "models/weapons/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
         },
         ScrollFunc = ArcCW.SCROLL_ZOOM,
-        ZoomLevels = 5,
+        ZoomLevels = 25,
         ZoomSound = "vz.zoomsmooth",
         Thermal = true,
         ThermalScopeColor = Color(0, 255, 0),
