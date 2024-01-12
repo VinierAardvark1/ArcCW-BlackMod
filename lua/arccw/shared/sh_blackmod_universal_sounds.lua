@@ -40,6 +40,20 @@ sound.Add({
     sound = "weapons/universal/uni_weapon_holster.wav"
 })
 
+sound.Add({
+    name = "universal.zoomswitch",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/universal/optic_zoom.wav"
+})
+
+sound.Add({
+    name = "universal.zoomsmooth",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/universal/optic_smooth_zoom.wav"
+})
+
 
 -- sound.Add({
 --     name = "universal.",

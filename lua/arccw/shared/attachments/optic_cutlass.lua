@@ -40,7 +40,7 @@ att.AdditionalSights = {
         },
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 25,
-        ZoomSound = "vz.zoomsmooth",
+        ZoomSound = "universal.zoomsmooth",
         IgnoreExtra = true,
     },
     {
@@ -61,7 +61,7 @@ att.AdditionalSights = {
         },
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 25,
-        ZoomSound = "vz.zoomsmooth",
+        ZoomSound = "universal.zoomsmooth",
         Thermal = true,
         ThermalScopeColor = Color(0, 255, 0),
         ThermalHighlightColor = Color(255, 255, 0),
