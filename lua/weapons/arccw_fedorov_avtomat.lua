@@ -315,6 +315,7 @@ SWEP.Animations = {
         LHIKIn = 0.5,
         LHIKOut = 0.5,
         Time = 3,
+        MinProgress = 2.2,
     },
     ["reload"] = {
         Source = "base_reload",
@@ -323,5 +324,6 @@ SWEP.Animations = {
         LHIKIn = 0.5,
         LHIKOut = 0.5,
         Time = 3,
+        MinProgress = 2,
     },
 }

@@ -87,9 +87,9 @@ SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 3 -- which attachment to put the case effect on
 
-SWEP.SpeedMult = 0.7
-SWEP.SightedSpeedMult = 0.75
-SWEP.SightTime = 0.35
+SWEP.SpeedMult = 0.9
+SWEP.SightedSpeedMult = 0.85
+SWEP.SightTime = 0.45
 SWEP.VisualRecoilMult = 1
 SWEP.RecoilRise = 1
 
@@ -124,8 +124,8 @@ SWEP.SprintAng = Angle(0, 0, 0)
 SWEP.HolsterPos = Vector(4, 0, 0)
 SWEP.HolsterAng = Angle(-7, 30, 0)
 
-SWEP.CrouchPos = Vector(-2.5, -2, -0.6)
-SWEP.CrouchAng = Angle(0, 3.5, -15)
+SWEP.CrouchPos = Vector(-1.5, 0.75, -0.6)
+SWEP.CrouchAng = Angle(0, 0, -15)
 
 SWEP.CustomizePos = Vector(12, 0, -2)
 SWEP.CustomizeAng = Angle(12, 40, 0)
@@ -314,6 +314,15 @@ SWEP.Animations = {
 			{s = "weapons/mx4_storm/rustle_1.wav", t = 0},
 		},
     },
+    ["draw_empty"] = {
+        Source = "base_draw_empty",
+        LHIK = true,
+        LHIKIn = 0.25,
+        LHIKOut = 0.25,
+        SoundTable = {
+			{s = "weapons/mx4_storm/rustle_1.wav", t = 0},
+		},
+    },
     ["holster"] = {
         Source = "base_holster",
         LHIK = true,
@@ -341,6 +350,7 @@ SWEP.Animations = {
             {s = "weapons/mx4_storm/smg_mag_in.wav", t = 1},
             {s = "weapons/mx4_storm/rustle_3.wav", t = 1.3},
         },
+        MinProgress = 1.23,
     },
     ["reload_empty"] = {
         Source = "base_reload_empty",
@@ -357,6 +367,7 @@ SWEP.Animations = {
             {s = "weapons/mx4_storm/smg_bolt_release.wav", t = 1.8},
             {s = "weapons/mx4_storm/rustle_3.wav", t = 2.2},
         },
+        MinProgress = 2.2,
     },
     ["idle_sprint"] = {
         Source = "base_sprint_loop",

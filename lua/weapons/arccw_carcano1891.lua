@@ -343,6 +343,7 @@ SWEP.Animations = {
         LHIKIn = 0.5,
         LHIKOut = 0.5,
         ShellEjectAt = 0.65,
+        MinProgress = 3.95,
     },
     ["reload"] = {
         Source = "base_reloadfull",
@@ -350,6 +351,7 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.5,
         LHIKOut = 0.5,
+        MinProgress = 5.95,
     },
     ["idle_sprint"] = {
         Source = "base_sprint",
