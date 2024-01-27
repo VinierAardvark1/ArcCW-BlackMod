@@ -1,5 +1,5 @@
 att.PrintName = "Iron Grip"
-att.Icon = Material("entities/att/arccw_uc_tp_firm_grip.png", "smooth mips")
+att.Icon = Material("entities/att/uc_tp_iron_grip.png", "smooth mips")
 att.Description = [[Long hours of grip training, recoil control, and pure concentration have made it much easier to control the recoil and sway of any given gun, but slows handling due to all focus and strength being put into controlling the weapon. Also decreases the likelihood of feeding/cycling failures.]]
 att.Desc_Pros = {
 }

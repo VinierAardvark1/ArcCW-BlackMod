@@ -1,8 +1,9 @@
 att.PrintName = ".17 Incinerator"
-att.Icon = Material("entities/att/blackmod_placeholder.png")
+att.Icon = Material("entities/att/ammo_.17_incinerator.png")
 att.Description = [[In the world of varmint cartridges, it’s all about speed. Higher velocity delivers flatter trajectories, and more dramatic impacts on critters. To achieve higher speeds, handloaders have experimented with many extreme wildcats — big cases necked down to a smaller calibers. Here we present what may be the most extreme wildcat cartridge of all, the .17 Incinerator — a .50 BMG necked down to .17 caliber. Created by Ammo-One, a custom cartridge company, the .17 Incinerator offers blistering performance. The special lathe-turned 33 gr projectiles exit the barrel at 5883 Feet Per Second — that’s over Mach 5, five times the speed of sound.
 
 What's a wildcat? Well, you're looking at the most extreme example of one. A custom cartridge that isn't mass produced, usually made to optimize a certain performamce of an existing cartridge. As you could probably guess, this was made to optimize the sheer speed of a .17 caliber bullet. It's not efficient in the slightest as most of the 230 grains of powder is lost, but how often can you say you made something go Mach 5 and mean it?]]
+att.SortOrder = 99999
 att.Desc_Pros = {
 }
 att.Desc_Cons = {

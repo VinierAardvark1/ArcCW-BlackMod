@@ -27,8 +27,8 @@ att.Mult_Penetration = 2.5
 att.Mult_Recoil = 4
 att.Mult_Range = 0.2
 att.Mult_RPM = 0.5
-att.Mult_CycleTime = 1.25
-att.Mult_ReloadTime = 1.25
+att.Mult_CycleTime = 1.125
+att.Mult_ReloadTime = 1.125
 
 att.Override_PhysTracerProfile = 1
 att.Override_AlwaysPhysBullet = true

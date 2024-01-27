@@ -87,4 +87,4 @@ att.HolosightBlackbox = true
 
 att.HolosightMagnification = 1
 
-att.Mult_SightTime = 1.5
+att.Mult_SightTime = 1.25
