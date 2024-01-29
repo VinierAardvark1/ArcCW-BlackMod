@@ -22,7 +22,7 @@ att.ModelOffset = Vector(0, 0, -0.3)
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 7.5, -0.74),
+        Pos = Vector(0, 8.15, -0.74),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         HolosightBone = "holosight",
@@ -33,7 +33,7 @@ att.AdditionalSights = {
             HolosightMagnificationMax = 500,
             HolosightReticle = Material("hud/scopes/bocw_optic_pellington_reticle_custom.png", "mips smooth"),
             HolosightNoFlare = true,
-            HolosightSize = 26,
+            HolosightSize = 22,
             HolosightBlackbox = true,
             Colorable = false,
             HolosightPiece = "models/weapons/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
@@ -44,7 +44,7 @@ att.AdditionalSights = {
         IgnoreExtra = true,
     },
     {
-        Pos = Vector(0, 7.5, -0.74),
+        Pos = Vector(0, 8.15, -0.74),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         HolosightData = {
@@ -54,7 +54,7 @@ att.AdditionalSights = {
             HolosightMagnificationMax = 500,
             HolosightReticle = Material("hud/scopes/bocw_optic_pellington_reticle_custom_thermal.png", "mips smooth"),
             HolosightNoFlare = true,
-            HolosightSize = 26,
+            HolosightSize = 22,
             HolosightBlackbox = true,
             Colorable = false,
             HolosightPiece = "models/weapons/atts/bocw_att_optic_pellingtonscope_hsp.mdl"
