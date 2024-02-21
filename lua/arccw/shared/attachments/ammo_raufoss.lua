@@ -5,7 +5,7 @@ att.Description = [[A 12.7x99mm NATO/.50 BMG caliber cartridge boasting an armor
 I'd say to not use it against infantry, but I know you will.
 It's okay, I've done it too. Just watch for MP; if they catch you, you never heard'a me. OK?]]
 att.Desc_Pros = {
-    "blackmod.gredwich",
+    "blackmod.antitank",
 }
 att.Desc_Cons = {
 	"blackmod.phys",

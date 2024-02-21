@@ -1,4 +1,4 @@
-att.PrintName = "HOPPE'S No. 9 Deluxe Gun Cleaning Kit"
+att.PrintName = "HOPPE'S No. 9 Deluxe Gun Cleaning Kit" -- Not sponsored, lol
 att.AbbrevName = "Grease"
 att.Icon = Material("entities/att/perk_hoppes9.png")
 att.Description = [[I don't see why you come to me for oils and cleaners, but lucky for you I have something just for that. A trusted brand, for certain. Used it the past few years, had no problems with it whatsoever.

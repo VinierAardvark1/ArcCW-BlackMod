@@ -1,3 +1,62 @@
+-- Universal Sounds
+sound.Add({
+    name = "universal.glbeginreload",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/universal/uni_gl_beginreload_01.wav", "weapons/universal/uni_gl_beginreload_02.wav", "weapons/universal/uni_gl_beginreload_03.wav"}
+})
+
+sound.Add({
+    name = "universal.lean",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/universal/uni_lean_in_01.wav", "weapons/universal/uni_lean_in_02.wav", "weapons/universal/uni_lean_in_03.wav", "weapons/universal/uni_lean_in_04.wav"}
+})
+
+sound.Add({
+    name = "universal.pistoldraw",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/universal/uni_pistol_draw_01.wav", "weapons/universal/uni_pistol_draw_02.wav", "weapons/universal/uni_pistol_draw_03.wav"}
+})
+
+sound.Add({
+    name = "universal.pistolholster",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/universal/uni_pistol_holster.wav"
+})
+
+sound.Add({
+    name = "universal.draw",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = {"weapons/universal/uni_weapon_draw_01.wav", "weapons/universal/uni_weapon_draw_02.wav", "weapons/universal/uni_weapon_draw_03.wav"}
+})
+
+sound.Add({
+    name = "universal.holster",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/universal/uni_weapon_holster.wav"
+})
+
+sound.Add({
+    name = "universal.zoomswitch",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/universal/optic_zoom.wav"
+})
+
+sound.Add({
+    name = "universal.zoomsmooth",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/universal/optic_smooth_zoom.wav"
+})
+
+
+
 -- Boys ATR
 sound.Add({
     name = "boysatr.fire",
@@ -63,8 +122,6 @@ sound.Add({
     volume = 1.0,
     sound = "weapons/atr_boys/atr_boys_maghit.wav"
 })
-
-
 
 
 
@@ -158,8 +215,6 @@ sound.Add({
 
 
 
-
-
 -- Fedorov Avtomat
 sound.Add({
     name = "fedorov.fire",
@@ -226,8 +281,6 @@ sound.Add({
     volume = 1.0,
     sound = "weapons/fedorov_avtomat/stg44_maghit.wav"
 })
-
-
 
 
 
@@ -313,8 +366,6 @@ sound.Add({
 
 
 
-
-
 -- Izh-43 Sawed Off (Find out why this doesn't work while the others do)
 sound.Add({
     name = "izh43.fire",
@@ -397,8 +448,6 @@ sound.Add({
 
 
 
-
-
 -- S&W Model 500
 sound.Add({
     name = "sw500.fire",
@@ -467,8 +516,6 @@ sound.Add({
 
 
 
-
-
 -- Stevens 620
 sound.Add({
     name = "stevens620.fire",
@@ -513,8 +560,6 @@ sound.Add({
     volume = 1.0,
     sound = "weapons/stevens620/stevens620_shell_insert_empty.wav"
 })
-
-
 
 
 
@@ -569,8 +614,6 @@ sound.Add({
     volume = 1.0,
     sound = "weapons/tankgewehr/arccw_t1918_boltlatch.wav"
 })
-
-
 
 
 
@@ -639,8 +682,6 @@ sound.Add({
     level = 100,
     sound = "weapons/volkssturmgewehr/volkssturmgewehr_boltrelease.wav"
 })
-
-
 
 
 
@@ -716,8 +757,6 @@ sound.Add({
     volume = 1.0,
     sound = "weapons/wz35/arccw_wz35_dryfire.wav"
 })
-
-
 
 
 

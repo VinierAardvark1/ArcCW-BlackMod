@@ -8,7 +8,7 @@ According to the seller's description, the original rifle was "made by Dr Seuss 
 So, maybe he was on to something...]]
 att.Desc_Pros = {
     "blackmod.nophys",
-    "blackmod.gredwich",
+    "blackmod.antitank",
     "Can probably pierce reality",
 }
 att.Desc_Cons = {

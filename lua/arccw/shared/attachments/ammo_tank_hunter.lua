@@ -4,7 +4,7 @@ att.Icon = Material("entities/att/ammo_tank_hunter.png")
 att.Description = [[A heavily modified and overstuffed cartridge boasting incredibly destructive firepower at the cost of being extremely volatile. This allows the bullet to destroy more heavily armored vehicles and tanks at the same rate as artillery fire, but it's volatility and recoil (among other factors) makes it a poor choice to use for the continuous fire of machine guns. For that reason, it is restricted to being used in anti-material pattern rifles in a single shot fashion as recommended by the "manufacturer".
 You have to handle it slowly so you don't die trying to combat... whatever. I don't care. ...I know, I know-look; it annoys me as much as it annoys you, maybe even more, but it's better to stay safe than be sorry, right? Might save a limb or two out there.]]
 att.Desc_Pros = {
-    "blackmod.gredwich",
+    "blackmod.antitank",
 }
 att.Desc_Cons = {
 	"blackmod.phys",
