@@ -1,4 +1,4 @@
-att.PrintName = "SUNBEAM Side-Mounted Floodlight"
+att.PrintName = "SUNBEAM Weapon-Mounted Miniature Floodlight"
 att.AbbrevName = "SUNBEAM Floodlight"
 att.Icon = Material("entities/att/tac_synthesis_placeholder_blackmod.png")
 att.Description = [["A high-powered, rail-mounted flashlight developed by by ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇'s contracted R&D company, SYN▇▇▇▇▇™, that is geared towards short-ranged combat in night environments. Being discrete is the least of this flashlight's concerns."
@@ -26,7 +26,7 @@ att.OffsetAng = Angle(0,0,0)
 att.ModelScale = Vector(0.75,0.75,0.75)
 
 att.Flashlight = true
-att.FlashlightFOV = 40
+att.FlashlightFOV = 60
 att.FlashlightFarZ = 5000 -- how far it goes
 att.FlashlightNearZ = 1 -- how far away it starts
 att.FlashlightAttenuationType = ArcCW.FLASH_ATT_CONSTANT -- LINEAR, CONSTANT, QUADRATIC are available

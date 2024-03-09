@@ -10,12 +10,12 @@ att.Desc_Cons = {
 	"Might be overpowered",
 }
 att.Desc_Neutrals = {
-	"Only works with pistols",
+	-- "Only works with pistols", -- What's the point of this line if you can only see this attachment on pistols? lmao
 	"blackmod.desc",
 }
 att.AutoStats = true
 att.NotForNPCs = true
-att.Slot = {"ammo_bullet","go_ammo"}
+att.Slot = {"ammo_bullet", "go_ammo"}
 
 att.Mult_ShootPitch = 2
 att.Mult_ShootVol = 0.5
