@@ -1,5 +1,5 @@
 L = {}
-L["blackmod.desc"]                  = "This is a BlackMod item!."
+L["blackmod.desc"]                  = "This is a BlackMod item!"
 L["blackmod.phys"]                  = "Will always be a physical bullet."
 L["blackmod.nophys"]                = "Will never be a physical bullet."
 L["blackmod.sniperammo"]            = "SniperPenetratedRound (Sniper) ammo only."

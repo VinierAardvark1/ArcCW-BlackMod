@@ -33,5 +33,7 @@ att.GivesFlags = {"perk_dart_convert"}
 att.ExcludeFlags = {"fcg_dart_convert"}
 
 att.Hook_Compatible = function(wep)
-    if not (wep.ManualAction or (wep:GetChamberSize() == 0 and (wep.RegularClipSize or wep.Primary.ClipSize) <= 2)) then return false end
+    if not ((wep.RegularClipSize or wep.Primary.ClipSize) <= 15) then return false end
+    local tbl = engine.ActiveGamemode() == "terrortown" or {"pistol", "357", "ar2", "SniperPenetratedRound"}
+    if not table.HasValue(tbl, wep.Primary.Ammo or "") then return false end
 end

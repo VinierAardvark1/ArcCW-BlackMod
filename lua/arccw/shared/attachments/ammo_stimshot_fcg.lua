@@ -1,5 +1,5 @@
 att.HideIfBlocked = true
-att.PrintName = "MASAMR-0 Stimulant Dart - Pistol Load" --Medical Adrenaline Shot Administered at Medium Ranges, Variant-0
+att.PrintName = "MASAMR-0 Stimulant Dart" --Medical Adrenaline Shot Administered at Medium Ranges, Variant-0
 att.AbbrevName = "Stim Shot"
 att.Icon = Material("entities/att/ammo_stimshot.png")
 att.Description = [[A modified, more helpful variant of the bullet-to-dart mechanism used by the infamous CRM-409 "Plague Darts." Rather than infecting targets with a hyper-lethal, hyper-infectious virus, the dart is filled with a small dose of epinephrine, also known as adrenaline, put in a saline solution. The darts are intended to be used at close-to-medium range to get fellow operatives back on their feet in the heat of battle, but a skilled marksman can easily deliver long-ranged healing if required. As this dart is about the size of a pistol bullet and does not produce enough force to cycle a weapon's action, it's common practice to treat all guns as single shot while in use.
@@ -15,7 +15,6 @@ att.Desc_Cons = {
     "Do not aim at the face." --Can still kill if aimed at the head for whatever reason, probably because Rubat™
 }
 att.Desc_Neutrals = {
-    "Only available on pistols as a single-shot cartridge.",
     "blackmod.desc"
 }
 att.AutoStats = true
@@ -25,8 +24,8 @@ att.MagReducer = true
 att.ActivateElements = {"reducedmag"}
 att.AddSuffix  = " Stim"
 
-att.Mult_AccuracyMOA = 0.75
-att.Mult_HipDispersion = 0.75
+att.Mult_AccuracyMOA = 0.66
+att.Mult_HipDispersion = 0.66
 
 att.Override_ChamberSize = 0
 att.Override_Num = 1
@@ -50,8 +49,8 @@ att.Hook_BulletHit = function(wep, data)
 end
 
 att.Hook_Compatible = function(wep)
-    if not ((wep.RegularClipSize) <= 15) then return false end
-    local tbl = engine.ActiveGamemode() == "terrortown" and {"357"} or {"pistol"}
+    if not ((wep.RegularClipSize or wep.Primary.ClipSize) <= 15) then return false end
+    local tbl = engine.ActiveGamemode() == "terrortown" or {"pistol", "357", "ar2", "SniperPenetratedRound"}
     if not table.HasValue(tbl, wep.Primary.Ammo or "") then return false end
 end
 
