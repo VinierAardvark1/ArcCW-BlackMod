@@ -1,7 +1,7 @@
 att.PrintName = "HDS Flip Sight w/ OKP-7"
 att.AbbrevName = "HDS Flip"
 att.Icon = Material("entities/att/optic_hds_okp7_glaz.png")
-att.Description = [[Magnified medium-range red-dot with a Thermal Feedback System which can outline long-range marks even through smoke for easier shooting.
+att.Description = [[Magnified medium-range red-dot with a Thermal Feedback System which can outline targets even through smoke for easier shooting.
 Managed to buy this piece off a Spetsnaz sniper. Says it helps him out in the field when visibility is low. I think the lock to it got damaged in shipping, so you can't flip it up and down anymore. Still works like a charm, managed to use it for some deer hunting before I put it up for sale.]]
 att.SortOrder = 999
 att.Desc_Pros = {
