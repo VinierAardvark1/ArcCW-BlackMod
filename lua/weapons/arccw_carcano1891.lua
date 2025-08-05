@@ -93,17 +93,31 @@ SWEP.SpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.6
 
 SWEP.BulletBones = { -- the bone that represents bullets in gun/mag
+    [1] = "Bullets",
+    [2] = "Bullet_1",
+    [3] = "Bullet_2",
+    [4] = "Bullet_3",
+    [5] = "Bullet_4",
+    [6] = "Bullet_5",
+    [7] = "Bullet_6"
 }
 SWEP.CaseBones = { -- Unlike BulletBones, these bones are determined by the missing bullet amount when reloading
-     [1] = "Bullets",
-     [2] = "Bullet_1",
-     [3] = "Bullet_2",
-     [4] = "Bullet_3",
-     [5] = "Bullet_4",
-     [6] = "Bullet_5",
-     [7] = "Bullet_6"
+    [1] = "Bullets",
+    [2] = "Bullet_1",
+    [3] = "Bullet_2",
+    [4] = "Bullet_3",
+    [5] = "Bullet_4",
+    [6] = "Bullet_5",
+    [7] = "Bullet_6"
 }
-SWEP.StripperClipBones = {
+SWEP.StripperClipBones = { -- None of these are working and idfk why
+    [1] = "Bullets",
+    [2] = "Bullet_1",
+    [3] = "Bullet_2",
+    [4] = "Bullet_3",
+    [5] = "Bullet_4",
+    [6] = "Bullet_5",
+    [7] = "Bullet_6"
 }
 
 SWEP.ProceduralRegularFire = false

@@ -1,13 +1,13 @@
 SWEP.Base = "arccw_base"
-SWEP.Spawnable = true -- this obviously has to be set to true
+SWEP.Spawnable = false -- this obviously has to be set to true
 SWEP.Category = "ArcCW - BlackMod" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "VG 1-5"
-SWEP.TrueName = "Gustloff Volkssturmgewehr"
+SWEP.PrintName = "VG 1-5 (Unfinished)"
+SWEP.TrueName = "Gustloff Volkssturmgewehr (Unfinished)"
 SWEP.Trivia_Class = "Semi Automatic Rifle"
-SWEP.Trivia_Desc = [[swaws kek]]
-SWEP.Trivia_Manufacturer = "Unknown, presumably Steyr Arms GmbH"
+SWEP.Trivia_Desc = [[To arm Germany under conditions of limited manpower and production capacities near the end of WW2, the Primitiv-Waffen-Programm ("primitive weapons program") was initiated. It called for weapons that were as easy as possible to produce. This rifle was one of many created under this program.]]
+SWEP.Trivia_Manufacturer = "Gustloff Werke"
 SWEP.Trivia_Calibre = "7.92×33mm Kurz"
 SWEP.Trivia_Mechanism = "Gas-delayed blowback"
 SWEP.Trivia_Country = "Nazi Germany"

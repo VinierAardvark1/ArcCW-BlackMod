@@ -1,10 +1,10 @@
 SWEP.Base = "arccw_base"
-SWEP.Spawnable = true -- this obviously has to be set to true
+SWEP.Spawnable = false -- this obviously has to be set to true
 SWEP.Category = "ArcCW - BlackMod" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Browning Pump Model 27"
-SWEP.TrueName = "Stevens Model 620"
+SWEP.PrintName = "Browning Pump Model 27 (Unfinished)"
+SWEP.TrueName = "Stevens Model 620 (Unfinished)"
 SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = [[The Stevens Model 620 is a pump-action shotgun developed by the legendary John Browning and manufactured by the J Stevens Arms Company, preceeded by the Stevens Model 620 made by the J Stevens Arms & Tools Company.
 Internally, the Model 620 is similar to the Model 520 yet streamlined. Externally, the 620 shotgun better resembles an Ithaca shotgun, lacking the distinct "humpback" double receiver of the 520. The stock is attached by a bolt connecting the receiver and trigger tangs through the stock's grip. All models can be slam fired, as none of the models had a trigger disconnector.
